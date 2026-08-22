@@ -1,0 +1,7 @@
+# Agent / 工具运行痕迹（非项目内容）
+.mimosa/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

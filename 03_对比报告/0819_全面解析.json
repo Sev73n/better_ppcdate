@@ -1,0 +1,2922 @@
+{
+  "source": "0819.txt",
+  "prefix": "ppcpdata2%eNrtvX",
+  "wrapper": {
+    "formatVersion": 2,
+    "sections": [
+      "common",
+      "systemShop",
+      "exchangeShop",
+      "killReward",
+      "teleportAdvanced",
+      "residenceAdvanced",
+      "bulletin",
+      "luckyDraw"
+    ],
+    "extra_keys": []
+  },
+  "top_keys": [
+    "bulletins",
+    "customCoinTypes",
+    "customItemTags",
+    "customItemTypeMap",
+    "defCoinCustomTextureData",
+    "ecoSystemData",
+    "exchangeShopData",
+    "killEntityRewardMap",
+    "luckyDraws",
+    "nameSpaceMap",
+    "systemShopItems"
+  ],
+  "keys_only_vs_0815": [
+    "bulletins",
+    "luckyDraws"
+  ],
+  "keys_only_in_0815": [],
+  "keys_only_vs_ours": [
+    "bulletins",
+    "exchangeShopData",
+    "luckyDraws"
+  ],
+  "keys_only_in_ours": [],
+  "wrapper_0815": {
+    "formatVersion": 2,
+    "sections": [
+      "common",
+      "systemShop",
+      "exchangeShop",
+      "killReward"
+    ],
+    "extra_keys": []
+  },
+  "wrapper_0818": {},
+  "0818_top_keys": [
+    "customCoinTypes",
+    "customItemTags",
+    "customItemTypeMap",
+    "defCoinCustomTextureData",
+    "ecoSystemData",
+    "killEntityRewardMap",
+    "nameSpaceMap",
+    "systemShopItems"
+  ],
+  "eco_0819": {
+    "automatFoodRecipeEnabled": false,
+    "automatRecipeEnabled": false,
+    "bulletinAutoOpenMode": "off",
+    "bulletinAutoOpenUnreadOnly": true,
+    "bulletinEnabled": true,
+    "deathLoseMoney": 100.0,
+    "deathLoseMoneyPercent": 0.0,
+    "defCoin": 0,
+    "ecoRanking": true,
+    "exchangeShopEnabled": true,
+    "exchangeShopMaxBatchCount": 64,
+    "forceClientSetting": {},
+    "isServer": true,
+    "killPlayerReward": 0,
+    "killPlayerRewardPercent": 0,
+    "luckyDrawAllowSkipAnimation": true,
+    "luckyDrawBroadcastMinimumQuality": "legendary",
+    "luckyDrawEnabled": true,
+    "luckyDrawFinishCooldownSeconds": 1,
+    "mainButtonLayout": {
+      "columns": 5,
+      "order": [
+        "mainBtnBulletin",
+        "mainBtnTeleport",
+        "mainBtnResidence",
+        "mainBtnLuckyDraw",
+        "mainBtnTrans",
+        "mainBtnSystemShop",
+        "mainBtnSystemSell",
+        "mainBtnExchangeShop",
+        "mainBtnPlayerShop",
+        "mainBtnProjectE",
+        "mainBtnStock",
+        "mainBtnRanking",
+        "mainBtnHistory"
+      ],
+      "widths": {
+        "mainBtnBulletin": 2,
+        "mainBtnExchangeShop": 1,
+        "mainBtnHistory": 1,
+        "mainBtnLuckyDraw": 1,
+        "mainBtnPlayerShop": 1,
+        "mainBtnProjectE": 1,
+        "mainBtnRanking": 1,
+        "mainBtnResidence": 1,
+        "mainBtnStock": 1,
+        "mainBtnSystemSell": 2,
+        "mainBtnSystemShop": 2,
+        "mainBtnTeleport": 1,
+        "mainBtnTrans": 1
+      }
+    },
+    "noticeMsg": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补",
+    "onlyRangeExchangeShop": false,
+    "onlyRangePlayerTrade": false,
+    "onlyRangeSystemSell": false,
+    "onlyRangeSystemTrade": false,
+    "otherCustomShop": true,
+    "playerEcoTransferAble": true,
+    "playerEcoTransferTaxRate": 0.1,
+    "playerShopDefMaxCount": 20,
+    "playerShopMaxDay": 60,
+    "playerShopRequestDefMaxCount": 5,
+    "playerShopRequestMaxDay": 30,
+    "preMinuteCoin": 0.0,
+    "projectEBasePrice": 0.01,
+    "projectEEnabled": false,
+    "projectEGlobalUnlocked": false,
+    "requestBackTax": true,
+    "requestTaxRate": 0.05,
+    "residenceCreateCoinType": "金币",
+    "residenceCreateDimensionBlacklist": [
+      2
+    ],
+    "residenceCreateFreeBlockCount": 0,
+    "residenceCreatePricePerBlock": 0.0,
+    "residenceCreateRangeMode": "full_height",
+    "residenceDeleteRefundPercent": 1.0,
+    "residenceEnabled": true,
+    "residenceMaxAreaOrVolume": 134217728,
+    "residenceMaxCountPerOwner": 10,
+    "residenceMaxJoinedCountPerPlayer": 64,
+    "residenceMaxMemberCount": 128,
+    "residenceMaxSideLength": 512,
+    "residenceMinSideLength": 1,
+    "residenceOfflineRecycleDays": 180,
+    "residencePermissionPolicy": {
+      "environment": {
+        "explosionProtection": {
+          "configurable": true,
+          "default": true
+        },
+        "mobGriefProtection": {
+          "configurable": true,
+          "default": true
+        },
+        "pistonProtection": {
+          "configurable": true,
+          "default": true
+        },
+        "preventMonsterSpawn": {
+          "configurable": true,
+          "default": true
+        },
+        "preventMonsterSpawnEnhanced": {
+          "configurable": true,
+          "default": false
+        },
+        "preventNonMonsterSpawn": {
+          "configurable": true,
+          "default": false
+        },
+        "preventNonMonsterSpawnEnhanced": {
+          "configurable": true,
+          "default": false
+        }
+      },
+      "member": {
+        "attackEntity": {
+          "configurable": true,
+          "default": true
+        },
+        "attackPlayer": {
+          "configurable": true,
+          "default": false
+        },
+        "destroyBlock": {
+          "configurable": true,
+          "default": true
+        },
+        "enterRegion": {
+          "configurable": true,
+          "default": true
+        },
+        "interactEntity": {
+          "configurable": true,
+          "default": true
+        },
+        "pickupItem": {
+          "configurable": true,
+          "default": true
+        },
+        "placeBlock": {
+          "configurable": true,
+          "default": true
+        },
+        "triggerPressurePlate": {
+          "configurable": true,
+          "default": true
+        },
+        "triggerProjectileRedstone": {
+          "configurable": true,
+          "default": true
+        },
+        "triggerTripwire": {
+          "configurable": true,
+          "default": true
+        },
+        "useBlock": {
+          "configurable": true,
+          "default": true
+        },
+        "useContainer": {
+          "configurable": true,
+          "default": true
+        },
+        "useDoorSwitch": {
+          "configurable": true,
+          "default": true
+        },
+        "useItem": {
+          "configurable": true,
+          "default": true
+        },
+        "usePortal": {
+          "configurable": true,
+          "default": true
+        },
+        "useWorkstation": {
+          "configurable": true,
+          "default": true
+        }
+      },
+      "non_member": {
+        "attackEntity": {
+          "configurable": true,
+          "default": false
+        },
+        "attackPlayer": {
+          "configurable": true,
+          "default": false
+        },
+        "destroyBlock": {
+          "configurable": true,
+          "default": false
+        },
+        "enterRegion": {
+          "configurable": true,
+          "default": true
+        },
+        "interactEntity": {
+          "configurable": true,
+          "default": false
+        },
+        "pickupItem": {
+          "configurable": true,
+          "default": false
+        },
+        "placeBlock": {
+          "configurable": true,
+          "default": false
+        },
+        "triggerPressurePlate": {
+          "configurable": true,
+          "default": false
+        },
+        "triggerProjectileRedstone": {
+          "configurable": true,
+          "default": false
+        },
+        "triggerTripwire": {
+          "configurable": true,
+          "default": false
+        },
+        "useBlock": {
+          "configurable": true,
+          "default": false
+        },
+        "useContainer": {
+          "configurable": true,
+          "default": false
+        },
+        "useDoorSwitch": {
+          "configurable": true,
+          "default": false
+        },
+        "useItem": {
+          "configurable": true,
+          "default": false
+        },
+        "usePortal": {
+          "configurable": true,
+          "default": false
+        },
+        "useWorkstation": {
+          "configurable": true,
+          "default": false
+        }
+      }
+    },
+    "residencePublicTeleportEnabled": false,
+    "residenceRenameCoinType": "金币",
+    "residenceRenameFee": 0.0,
+    "residenceResizeEnabled": true,
+    "residenceTeleportCooldownSeconds": 0,
+    "residenceTeleportEnabled": true,
+    "residenceTransferCoinType": "金币",
+    "residenceTransferEnabled": false,
+    "residenceTransferFee": 0.0,
+    "stockEnabled": false,
+    "taxRate": 0.05,
+    "teleportDelaySeconds": 2,
+    "teleportEnabled": true,
+    "teleportOperatorBypassLimits": true,
+    "teleportPersonalBedRequired": false,
+    "teleportPersonalCoinType": "金币",
+    "teleportPersonalCooldownSeconds": 30,
+    "teleportPersonalDimensionWhitelist": [
+      0,
+      1,
+      2
+    ],
+    "teleportPersonalMaxCount": 8,
+    "teleportPersonalPrice": 0.0,
+    "teleportPlayerCoinType": "金币",
+    "teleportPlayerPrice": 0.0,
+    "teleportPlayerRequestEnabled": true,
+    "teleportPreviousCoinType": "金币",
+    "teleportPreviousCooldownSeconds": 30,
+    "teleportPreviousPrice": 0.0,
+    "teleportRandomCenterMode": "player_position",
+    "teleportRandomCoinType": "金币",
+    "teleportRandomCooldownSeconds": 600,
+    "teleportRandomDimensionWhitelist": [
+      0
+    ],
+    "teleportRandomEnabled": true,
+    "teleportRandomPrice": 0.0,
+    "teleportRandomRadius": 3000,
+    "teleportRequestCooldownSeconds": 60,
+    "teleportRequestExpireSeconds": 120,
+    "teleportRespawnMode": "vanilla",
+    "teleportWorldSpawnCoinType": "金币",
+    "teleportWorldSpawnCooldownSeconds": 30,
+    "teleportWorldSpawnPrice": 0.0
+  },
+  "eco_vs_0815": [
+    {
+      "field": "defCoin",
+      "0815": 100.0,
+      "0819": 0
+    },
+    {
+      "field": "ecoRanking",
+      "0815": false,
+      "0819": true
+    },
+    {
+      "field": "exchangeShopEnabled",
+      "0815": false,
+      "0819": true
+    },
+    {
+      "field": "isServer",
+      "0815": false,
+      "0819": true
+    },
+    {
+      "field": "noticeMsg",
+      "0815": "仅金币｜原版1380｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计1889｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核",
+      "0819": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补"
+    },
+    {
+      "field": "onlyRangeExchangeShop",
+      "0815": null,
+      "0819": false
+    },
+    {
+      "field": "preMinuteCoin",
+      "0815": 1.0,
+      "0819": 0.0
+    },
+    {
+      "field": "residenceCreateDimensionBlacklist",
+      "0815": null,
+      "0819": [
+        2
+      ]
+    },
+    {
+      "field": "residenceMaxAreaOrVolume",
+      "0815": null,
+      "0819": 134217728
+    },
+    {
+      "field": "residencePermissionPolicy",
+      "0815": null,
+      "0819": {
+        "environment": {
+          "explosionProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "mobGriefProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "pistonProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawn": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawn": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          }
+        },
+        "member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": true
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": true
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": true
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": true
+          },
+          "useItem": {
+            "configurable": true,
+            "default": true
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": true
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": true
+          }
+        },
+        "non_member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": false
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": false
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": false
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": false
+          },
+          "useItem": {
+            "configurable": true,
+            "default": false
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": false
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": false
+          }
+        }
+      }
+    },
+    {
+      "field": "residencePublicTeleportEnabled",
+      "0815": null,
+      "0819": false
+    },
+    {
+      "field": "teleportOperatorBypassLimits",
+      "0815": null,
+      "0819": true
+    },
+    {
+      "field": "teleportPersonalDimensionWhitelist",
+      "0815": null,
+      "0819": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "field": "teleportRandomDimensionWhitelist",
+      "0815": null,
+      "0819": [
+        0
+      ]
+    },
+    {
+      "field": "teleportWorldSpawnCoinType",
+      "0815": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportWorldSpawnCooldownSeconds",
+      "0815": null,
+      "0819": 30
+    },
+    {
+      "field": "teleportWorldSpawnPrice",
+      "0815": null,
+      "0819": 0.0
+    }
+  ],
+  "eco_vs_0818_count": 66,
+  "eco_vs_ours": [
+    {
+      "field": "bulletinAutoOpenMode",
+      "ours": null,
+      "0819": "off"
+    },
+    {
+      "field": "bulletinAutoOpenUnreadOnly",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "bulletinEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "deathLoseMoney",
+      "ours": 0,
+      "0819": 100.0
+    },
+    {
+      "field": "deathLoseMoneyPercent",
+      "ours": 0.3,
+      "0819": 0.0
+    },
+    {
+      "field": "exchangeShopEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "exchangeShopMaxBatchCount",
+      "ours": null,
+      "0819": 64
+    },
+    {
+      "field": "isServer",
+      "ours": false,
+      "0819": true
+    },
+    {
+      "field": "luckyDrawAllowSkipAnimation",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "luckyDrawBroadcastMinimumQuality",
+      "ours": null,
+      "0819": "legendary"
+    },
+    {
+      "field": "luckyDrawEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "luckyDrawFinishCooldownSeconds",
+      "ours": null,
+      "0819": 1
+    },
+    {
+      "field": "mainButtonLayout",
+      "ours": null,
+      "0819": {
+        "columns": 5,
+        "order": [
+          "mainBtnBulletin",
+          "mainBtnTeleport",
+          "mainBtnResidence",
+          "mainBtnLuckyDraw",
+          "mainBtnTrans",
+          "mainBtnSystemShop",
+          "mainBtnSystemSell",
+          "mainBtnExchangeShop",
+          "mainBtnPlayerShop",
+          "mainBtnProjectE",
+          "mainBtnStock",
+          "mainBtnRanking",
+          "mainBtnHistory"
+        ],
+        "widths": {
+          "mainBtnBulletin": 2,
+          "mainBtnExchangeShop": 1,
+          "mainBtnHistory": 1,
+          "mainBtnLuckyDraw": 1,
+          "mainBtnPlayerShop": 1,
+          "mainBtnProjectE": 1,
+          "mainBtnRanking": 1,
+          "mainBtnResidence": 1,
+          "mainBtnStock": 1,
+          "mainBtnSystemSell": 2,
+          "mainBtnSystemShop": 2,
+          "mainBtnTeleport": 1,
+          "mainBtnTrans": 1
+        }
+      }
+    },
+    {
+      "field": "onlyRangeExchangeShop",
+      "ours": null,
+      "0819": false
+    },
+    {
+      "field": "residenceCreateCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "residenceCreateDimensionBlacklist",
+      "ours": null,
+      "0819": [
+        2
+      ]
+    },
+    {
+      "field": "residenceCreateFreeBlockCount",
+      "ours": null,
+      "0819": 0
+    },
+    {
+      "field": "residenceCreatePricePerBlock",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "residenceCreateRangeMode",
+      "ours": null,
+      "0819": "full_height"
+    },
+    {
+      "field": "residenceDeleteRefundPercent",
+      "ours": null,
+      "0819": 1.0
+    },
+    {
+      "field": "residenceEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "residenceMaxAreaOrVolume",
+      "ours": null,
+      "0819": 134217728
+    },
+    {
+      "field": "residenceMaxCountPerOwner",
+      "ours": null,
+      "0819": 10
+    },
+    {
+      "field": "residenceMaxJoinedCountPerPlayer",
+      "ours": null,
+      "0819": 64
+    },
+    {
+      "field": "residenceMaxMemberCount",
+      "ours": null,
+      "0819": 128
+    },
+    {
+      "field": "residenceMaxSideLength",
+      "ours": null,
+      "0819": 512
+    },
+    {
+      "field": "residenceMinSideLength",
+      "ours": null,
+      "0819": 1
+    },
+    {
+      "field": "residenceOfflineRecycleDays",
+      "ours": null,
+      "0819": 180
+    },
+    {
+      "field": "residencePermissionPolicy",
+      "ours": null,
+      "0819": {
+        "environment": {
+          "explosionProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "mobGriefProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "pistonProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawn": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawn": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          }
+        },
+        "member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": true
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": true
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": true
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": true
+          },
+          "useItem": {
+            "configurable": true,
+            "default": true
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": true
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": true
+          }
+        },
+        "non_member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": false
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": false
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": false
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": false
+          },
+          "useItem": {
+            "configurable": true,
+            "default": false
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": false
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": false
+          }
+        }
+      }
+    },
+    {
+      "field": "residencePublicTeleportEnabled",
+      "ours": null,
+      "0819": false
+    },
+    {
+      "field": "residenceRenameCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "residenceRenameFee",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "residenceResizeEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "residenceTeleportCooldownSeconds",
+      "ours": null,
+      "0819": 0
+    },
+    {
+      "field": "residenceTeleportEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "residenceTransferCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "residenceTransferEnabled",
+      "ours": null,
+      "0819": false
+    },
+    {
+      "field": "residenceTransferFee",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "teleportDelaySeconds",
+      "ours": null,
+      "0819": 2
+    },
+    {
+      "field": "teleportEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "teleportOperatorBypassLimits",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "teleportPersonalBedRequired",
+      "ours": null,
+      "0819": false
+    },
+    {
+      "field": "teleportPersonalCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportPersonalCooldownSeconds",
+      "ours": null,
+      "0819": 30
+    },
+    {
+      "field": "teleportPersonalDimensionWhitelist",
+      "ours": null,
+      "0819": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "field": "teleportPersonalMaxCount",
+      "ours": null,
+      "0819": 8
+    },
+    {
+      "field": "teleportPersonalPrice",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "teleportPlayerCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportPlayerPrice",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "teleportPlayerRequestEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "teleportPreviousCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportPreviousCooldownSeconds",
+      "ours": null,
+      "0819": 30
+    },
+    {
+      "field": "teleportPreviousPrice",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "teleportRandomCenterMode",
+      "ours": null,
+      "0819": "player_position"
+    },
+    {
+      "field": "teleportRandomCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportRandomCooldownSeconds",
+      "ours": null,
+      "0819": 600
+    },
+    {
+      "field": "teleportRandomDimensionWhitelist",
+      "ours": null,
+      "0819": [
+        0
+      ]
+    },
+    {
+      "field": "teleportRandomEnabled",
+      "ours": null,
+      "0819": true
+    },
+    {
+      "field": "teleportRandomPrice",
+      "ours": null,
+      "0819": 0.0
+    },
+    {
+      "field": "teleportRandomRadius",
+      "ours": null,
+      "0819": 3000
+    },
+    {
+      "field": "teleportRequestCooldownSeconds",
+      "ours": null,
+      "0819": 60
+    },
+    {
+      "field": "teleportRequestExpireSeconds",
+      "ours": null,
+      "0819": 120
+    },
+    {
+      "field": "teleportRespawnMode",
+      "ours": null,
+      "0819": "vanilla"
+    },
+    {
+      "field": "teleportWorldSpawnCoinType",
+      "ours": null,
+      "0819": "金币"
+    },
+    {
+      "field": "teleportWorldSpawnCooldownSeconds",
+      "ours": null,
+      "0819": 30
+    },
+    {
+      "field": "teleportWorldSpawnPrice",
+      "ours": null,
+      "0819": 0.0
+    }
+  ],
+  "eco_groups": {
+    "其他系统": {
+      "automatFoodRecipeEnabled": false,
+      "automatRecipeEnabled": false,
+      "forceClientSetting": {},
+      "isServer": true,
+      "noticeMsg": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补",
+      "onlyRangeExchangeShop": false,
+      "onlyRangePlayerTrade": false,
+      "onlyRangeSystemSell": false,
+      "onlyRangeSystemTrade": false,
+      "otherCustomShop": true
+    },
+    "公告": {
+      "bulletinAutoOpenMode": "off",
+      "bulletinAutoOpenUnreadOnly": true,
+      "bulletinEnabled": true
+    },
+    "基础经济": {
+      "deathLoseMoney": 100.0,
+      "deathLoseMoneyPercent": 0.0,
+      "defCoin": 0,
+      "ecoRanking": true,
+      "killPlayerReward": 0,
+      "killPlayerRewardPercent": 0,
+      "preMinuteCoin": 0.0
+    },
+    "兑换商店": {
+      "exchangeShopEnabled": true,
+      "exchangeShopMaxBatchCount": 64
+    },
+    "抽奖": {
+      "luckyDrawAllowSkipAnimation": true,
+      "luckyDrawBroadcastMinimumQuality": "legendary",
+      "luckyDrawEnabled": true,
+      "luckyDrawFinishCooldownSeconds": 1
+    },
+    "主界面按钮": {
+      "mainButtonLayout": {
+        "columns": 5,
+        "order": [
+          "mainBtnBulletin",
+          "mainBtnTeleport",
+          "mainBtnResidence",
+          "mainBtnLuckyDraw",
+          "mainBtnTrans",
+          "mainBtnSystemShop",
+          "mainBtnSystemSell",
+          "mainBtnExchangeShop",
+          "mainBtnPlayerShop",
+          "mainBtnProjectE",
+          "mainBtnStock",
+          "mainBtnRanking",
+          "mainBtnHistory"
+        ],
+        "widths": {
+          "mainBtnBulletin": 2,
+          "mainBtnExchangeShop": 1,
+          "mainBtnHistory": 1,
+          "mainBtnLuckyDraw": 1,
+          "mainBtnPlayerShop": 1,
+          "mainBtnProjectE": 1,
+          "mainBtnRanking": 1,
+          "mainBtnResidence": 1,
+          "mainBtnStock": 1,
+          "mainBtnSystemSell": 2,
+          "mainBtnSystemShop": 2,
+          "mainBtnTeleport": 1,
+          "mainBtnTrans": 1
+        }
+      }
+    },
+    "玩家商店/转账/税": {
+      "playerEcoTransferAble": true,
+      "playerEcoTransferTaxRate": 0.1,
+      "playerShopDefMaxCount": 20,
+      "playerShopMaxDay": 60,
+      "playerShopRequestDefMaxCount": 5,
+      "playerShopRequestMaxDay": 30,
+      "requestBackTax": true,
+      "requestTaxRate": 0.05,
+      "taxRate": 0.05
+    },
+    "等价交换": {
+      "projectEBasePrice": 0.01,
+      "projectEEnabled": false,
+      "projectEGlobalUnlocked": false
+    },
+    "领地": {
+      "residenceCreateCoinType": "金币",
+      "residenceCreateDimensionBlacklist": [
+        2
+      ],
+      "residenceCreateFreeBlockCount": 0,
+      "residenceCreatePricePerBlock": 0.0,
+      "residenceCreateRangeMode": "full_height",
+      "residenceDeleteRefundPercent": 1.0,
+      "residenceEnabled": true,
+      "residenceMaxAreaOrVolume": 134217728,
+      "residenceMaxCountPerOwner": 10,
+      "residenceMaxJoinedCountPerPlayer": 64,
+      "residenceMaxMemberCount": 128,
+      "residenceMaxSideLength": 512,
+      "residenceMinSideLength": 1,
+      "residenceOfflineRecycleDays": 180,
+      "residencePermissionPolicy": {
+        "environment": {
+          "explosionProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "mobGriefProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "pistonProtection": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawn": {
+            "configurable": true,
+            "default": true
+          },
+          "preventMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawn": {
+            "configurable": true,
+            "default": false
+          },
+          "preventNonMonsterSpawnEnhanced": {
+            "configurable": true,
+            "default": false
+          }
+        },
+        "member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": true
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": true
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": true
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": true
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": true
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": true
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": true
+          },
+          "useItem": {
+            "configurable": true,
+            "default": true
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": true
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": true
+          }
+        },
+        "non_member": {
+          "attackEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "attackPlayer": {
+            "configurable": true,
+            "default": false
+          },
+          "destroyBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "enterRegion": {
+            "configurable": true,
+            "default": true
+          },
+          "interactEntity": {
+            "configurable": true,
+            "default": false
+          },
+          "pickupItem": {
+            "configurable": true,
+            "default": false
+          },
+          "placeBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerPressurePlate": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerProjectileRedstone": {
+            "configurable": true,
+            "default": false
+          },
+          "triggerTripwire": {
+            "configurable": true,
+            "default": false
+          },
+          "useBlock": {
+            "configurable": true,
+            "default": false
+          },
+          "useContainer": {
+            "configurable": true,
+            "default": false
+          },
+          "useDoorSwitch": {
+            "configurable": true,
+            "default": false
+          },
+          "useItem": {
+            "configurable": true,
+            "default": false
+          },
+          "usePortal": {
+            "configurable": true,
+            "default": false
+          },
+          "useWorkstation": {
+            "configurable": true,
+            "default": false
+          }
+        }
+      },
+      "residencePublicTeleportEnabled": false,
+      "residenceRenameCoinType": "金币",
+      "residenceRenameFee": 0.0,
+      "residenceResizeEnabled": true,
+      "residenceTeleportCooldownSeconds": 0,
+      "residenceTeleportEnabled": true,
+      "residenceTransferCoinType": "金币",
+      "residenceTransferEnabled": false,
+      "residenceTransferFee": 0.0
+    },
+    "股市": {
+      "stockEnabled": false
+    },
+    "传送": {
+      "teleportDelaySeconds": 2,
+      "teleportEnabled": true,
+      "teleportOperatorBypassLimits": true,
+      "teleportPersonalBedRequired": false,
+      "teleportPersonalCoinType": "金币",
+      "teleportPersonalCooldownSeconds": 30,
+      "teleportPersonalDimensionWhitelist": [
+        0,
+        1,
+        2
+      ],
+      "teleportPersonalMaxCount": 8,
+      "teleportPersonalPrice": 0.0,
+      "teleportPlayerCoinType": "金币",
+      "teleportPlayerPrice": 0.0,
+      "teleportPlayerRequestEnabled": true,
+      "teleportPreviousCoinType": "金币",
+      "teleportPreviousCooldownSeconds": 30,
+      "teleportPreviousPrice": 0.0,
+      "teleportRandomCenterMode": "player_position",
+      "teleportRandomCoinType": "金币",
+      "teleportRandomCooldownSeconds": 600,
+      "teleportRandomDimensionWhitelist": [
+        0
+      ],
+      "teleportRandomEnabled": true,
+      "teleportRandomPrice": 0.0,
+      "teleportRandomRadius": 3000,
+      "teleportRequestCooldownSeconds": 60,
+      "teleportRequestExpireSeconds": 120,
+      "teleportRespawnMode": "vanilla",
+      "teleportWorldSpawnCoinType": "金币",
+      "teleportWorldSpawnCooldownSeconds": 30,
+      "teleportWorldSpawnPrice": 0.0
+    }
+  },
+  "non_shop_summary": {
+    "bulletins": "<list n=1 first=dict>",
+    "customCoinTypes": "<list n=1 first=dict>",
+    "customItemTags": [
+      "材料",
+      "方块",
+      "食物",
+      "工具",
+      "装备",
+      "刷怪蛋",
+      "药水",
+      "其他",
+      "森罗物语（厨房）",
+      "森罗物语（酒馆）",
+      "森罗物语（玩偶）",
+      "冰火传说"
+    ],
+    "customItemTypeMap": {
+      "§6基金": {
+        "texturePath": "textures/ui/ppeco_tag/tag_30"
+      },
+      "§l原版|方块与物品": {
+        "texturePath": "textures/ui/ppeco_tag/tag_21"
+      },
+      "§l原版|药水": {
+        "texturePath": "textures/items/potion_bottle_heal"
+      },
+      "§l原版|附魔书": {
+        "texturePath": "textures/items/book_enchanted"
+      },
+      "全部": {
+        "texturePath": "textures/ui/magnifyingGlass"
+      },
+      "其他": {
+        "texturePath": "textures/ui/permissions_custom_dots"
+      },
+      "冰火传说": {
+        "texturePath": "textures/items/bone"
+      },
+      "刷怪蛋": {
+        "texturePath": "textures/items/egg"
+      },
+      "工具": {
+        "texturePath": "textures/items/diamond_pickaxe"
+      },
+      "方块": {
+        "texturePath": "textures/ui/ppeco_tag/tag_20"
+      },
+      "材料": {
+        "texturePath": "textures/ui/ppeco_tag/tag_5"
+      },
+      "森罗物语（厨房）": {
+        "texturePath": "textures/kaleidoscope_cookery/items/crop/rice_panicle"
+      },
+      "森罗物语（玩偶）": {
+        "texturePath": "textures/kaleidoscope_doll/blocks/doll_machine_icon"
+      },
+      "森罗物语（酒馆）": {
+        "texturePath": "textures/ktavern/item/brew/drink/sakura_wine"
+      },
+      "药水": {
+        "texturePath": "textures/items/potion_bottle_heal"
+      },
+      "装备": {
+        "texturePath": "textures/ui/ppeco_tag/tag_2"
+      },
+      "附魔书": {
+        "texturePath": "textures/items/book_enchanted"
+      },
+      "食物": {
+        "texturePath": "textures/items/cake"
+      }
+    },
+    "defCoinCustomTextureData": "<list n=3 first=str>",
+    "ecoSystemData": {
+      "automatFoodRecipeEnabled": false,
+      "automatRecipeEnabled": false,
+      "bulletinAutoOpenMode": "off",
+      "bulletinAutoOpenUnreadOnly": true,
+      "bulletinEnabled": true,
+      "deathLoseMoney": 100.0,
+      "deathLoseMoneyPercent": 0.0,
+      "defCoin": 0,
+      "ecoRanking": true,
+      "exchangeShopEnabled": true,
+      "exchangeShopMaxBatchCount": 64,
+      "forceClientSetting": {},
+      "isServer": true,
+      "killPlayerReward": 0,
+      "killPlayerRewardPercent": 0,
+      "luckyDrawAllowSkipAnimation": true,
+      "luckyDrawBroadcastMinimumQuality": "legendary",
+      "luckyDrawEnabled": true,
+      "luckyDrawFinishCooldownSeconds": 1,
+      "mainButtonLayout": {
+        "columns": 5,
+        "order": [
+          "mainBtnBulletin",
+          "mainBtnTeleport",
+          "mainBtnResidence",
+          "mainBtnLuckyDraw",
+          "mainBtnTrans",
+          "mainBtnSystemShop",
+          "mainBtnSystemSell",
+          "mainBtnExchangeShop",
+          "mainBtnPlayerShop",
+          "mainBtnProjectE",
+          "mainBtnStock",
+          "mainBtnRanking",
+          "mainBtnHistory"
+        ],
+        "widths": "<dict keys=13>"
+      },
+      "noticeMsg": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补",
+      "onlyRangeExchangeShop": false,
+      "onlyRangePlayerTrade": false,
+      "onlyRangeSystemSell": false,
+      "onlyRangeSystemTrade": false,
+      "otherCustomShop": true,
+      "playerEcoTransferAble": true,
+      "playerEcoTransferTaxRate": 0.1,
+      "playerShopDefMaxCount": 20,
+      "playerShopMaxDay": 60,
+      "playerShopRequestDefMaxCount": 5,
+      "playerShopRequestMaxDay": 30,
+      "preMinuteCoin": 0.0,
+      "projectEBasePrice": 0.01,
+      "projectEEnabled": false,
+      "projectEGlobalUnlocked": false,
+      "requestBackTax": true,
+      "requestTaxRate": 0.05,
+      "residenceCreateCoinType": "金币",
+      "residenceCreateDimensionBlacklist": [
+        2
+      ]
+    },
+    "exchangeShopData": {
+      "categories": "<list n=8 first=dict>",
+      "recipes": []
+    },
+    "killEntityRewardMap": {
+      "minecraft:chicken": [
+        5.0,
+        "金币"
+      ],
+      "minecraft:creeper": [
+        12.0,
+        "金币"
+      ],
+      "minecraft:skeleton": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:zombie": [
+        10.0,
+        "金币"
+      ]
+    },
+    "luckyDraws": "<list n=1 first=dict>",
+    "nameSpaceMap": {
+      "breath_maid": "2",
+      "bricefire": "8",
+      "create": "3",
+      "farmers_tale_nullgr": "6",
+      "ihzao": "0",
+      "kaleidoscope_cookery": "5",
+      "kaleidoscope_doll": "9",
+      "kaleidoscope_tavern": "10",
+      "minecraft": "4",
+      "ws": "7",
+      "ysm_maid": "1"
+    }
+  },
+  "lottery_hits": [
+    {
+      "path": "data.ecoSystemData.luckyDrawAllowSkipAnimation",
+      "type": "bool",
+      "summary": true
+    },
+    {
+      "path": "data.ecoSystemData.luckyDrawBroadcastMinimumQuality",
+      "type": "str",
+      "summary": "legendary"
+    },
+    {
+      "path": "data.ecoSystemData.luckyDrawEnabled",
+      "type": "bool",
+      "summary": true
+    },
+    {
+      "path": "data.ecoSystemData.luckyDrawFinishCooldownSeconds",
+      "type": "int",
+      "summary": 1
+    },
+    {
+      "path": "data.ecoSystemData.mainButtonLayout.widths.mainBtnLuckyDraw",
+      "type": "int",
+      "summary": 1
+    },
+    {
+      "path": "data.luckyDraws",
+      "type": "list",
+      "summary": "<list n=1 first=dict>"
+    },
+    {
+      "path": "data.luckyDraws[0].freeDrawCount",
+      "type": "int",
+      "summary": 1
+    },
+    {
+      "path": "data.luckyDraws[0].freeDrawType",
+      "type": "int",
+      "summary": 1
+    }
+  ],
+  "coins_0819": [
+    {
+      "defCoin": 0.0,
+      "key": "基金",
+      "rankingAble": false,
+      "texturePath": "textures/ui/ppeco_icon_rot_coin_33",
+      "transferAble": false,
+      "transferTaxRate": 0.0,
+      "uvSize": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "visibleInPack": true
+    }
+  ],
+  "coins_0815": [
+    {
+      "defCoin": 0.0,
+      "key": "基金",
+      "rankingAble": false,
+      "texturePath": "textures/ui/ppeco_icon_rot_coin_33",
+      "transferAble": false,
+      "transferTaxRate": 0.0,
+      "uvSize": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "visibleInPack": false
+    }
+  ],
+  "coins_ours": [
+    {
+      "defCoin": 0.0,
+      "key": "基金",
+      "rankingAble": false,
+      "texturePath": "textures/ui/ppeco_icon_rot_coin_33",
+      "transferAble": false,
+      "transferTaxRate": 0.0,
+      "uvSize": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "visibleInPack": true
+    }
+  ],
+  "tags_0819": [
+    "材料",
+    "方块",
+    "食物",
+    "工具",
+    "装备",
+    "刷怪蛋",
+    "药水",
+    "其他",
+    "森罗物语（厨房）",
+    "森罗物语（酒馆）",
+    "森罗物语（玩偶）",
+    "冰火传说"
+  ],
+  "tags_0815": [
+    "材料",
+    "方块",
+    "食物",
+    "工具",
+    "装备",
+    "刷怪蛋",
+    "药水",
+    "其他",
+    "森罗物语（厨房）",
+    "森罗物语（酒馆）",
+    "森罗物语（玩偶）",
+    "冰火传说"
+  ],
+  "tags_ours": [
+    "材料",
+    "方块",
+    "食物",
+    "工具",
+    "装备",
+    "刷怪蛋",
+    "药水",
+    "其他",
+    "森罗物语（厨房）",
+    "森罗物语（酒馆）",
+    "森罗物语（玩偶）",
+    "冰火传说"
+  ],
+  "type_map_0819": {
+    "§6基金": {
+      "texturePath": "textures/ui/ppeco_tag/tag_30"
+    },
+    "§l原版|方块与物品": {
+      "texturePath": "textures/ui/ppeco_tag/tag_21"
+    },
+    "§l原版|药水": {
+      "texturePath": "textures/items/potion_bottle_heal"
+    },
+    "§l原版|附魔书": {
+      "texturePath": "textures/items/book_enchanted"
+    },
+    "全部": {
+      "texturePath": "textures/ui/magnifyingGlass"
+    },
+    "其他": {
+      "texturePath": "textures/ui/permissions_custom_dots"
+    },
+    "冰火传说": {
+      "texturePath": "textures/items/bone"
+    },
+    "刷怪蛋": {
+      "texturePath": "textures/items/egg"
+    },
+    "工具": {
+      "texturePath": "textures/items/diamond_pickaxe"
+    },
+    "方块": {
+      "texturePath": "textures/ui/ppeco_tag/tag_20"
+    },
+    "材料": {
+      "texturePath": "textures/ui/ppeco_tag/tag_5"
+    },
+    "森罗物语（厨房）": {
+      "texturePath": "textures/kaleidoscope_cookery/items/crop/rice_panicle"
+    },
+    "森罗物语（玩偶）": {
+      "texturePath": "textures/kaleidoscope_doll/blocks/doll_machine_icon"
+    },
+    "森罗物语（酒馆）": {
+      "texturePath": "textures/ktavern/item/brew/drink/sakura_wine"
+    },
+    "药水": {
+      "texturePath": "textures/items/potion_bottle_heal"
+    },
+    "装备": {
+      "texturePath": "textures/ui/ppeco_tag/tag_2"
+    },
+    "附魔书": {
+      "texturePath": "textures/items/book_enchanted"
+    },
+    "食物": {
+      "texturePath": "textures/items/cake"
+    }
+  },
+  "ns_0819": {
+    "breath_maid": "2",
+    "bricefire": "8",
+    "create": "3",
+    "farmers_tale_nullgr": "6",
+    "ihzao": "0",
+    "kaleidoscope_cookery": "5",
+    "kaleidoscope_doll": "9",
+    "kaleidoscope_tavern": "10",
+    "minecraft": "4",
+    "ws": "7",
+    "ysm_maid": "1"
+  },
+  "kill_0819": {
+    "minecraft:chicken": [
+      5.0,
+      "金币"
+    ],
+    "minecraft:creeper": [
+      12.0,
+      "金币"
+    ],
+    "minecraft:skeleton": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:zombie": [
+      10.0,
+      "金币"
+    ]
+  },
+  "kill_0815": {
+    "minecraft:cave_spider": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:chicken": [
+      1.0,
+      "金币"
+    ],
+    "minecraft:cod": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:cow": [
+      1.0,
+      "金币"
+    ],
+    "minecraft:creeper": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:drowned": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:frog": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:glow_squid": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:iron_golem": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:piglin": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:player": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:rabbit": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:skeleton": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:zombie": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:zombie_villager_v2": [
+      10.0,
+      "金币"
+    ]
+  },
+  "kill_ours": {},
+  "kill_vs_0815": {
+    "added": {},
+    "removed": {
+      "minecraft:rabbit": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:drowned": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:frog": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:cod": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:iron_golem": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:cave_spider": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:glow_squid": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:piglin": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:player": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:zombie_villager_v2": [
+        10.0,
+        "金币"
+      ],
+      "minecraft:cow": [
+        1.0,
+        "金币"
+      ]
+    },
+    "changed": {
+      "minecraft:creeper": {
+        "0815": [
+          10.0,
+          "金币"
+        ],
+        "0819": [
+          12.0,
+          "金币"
+        ]
+      },
+      "minecraft:chicken": {
+        "0815": [
+          1.0,
+          "金币"
+        ],
+        "0819": [
+          5.0,
+          "金币"
+        ]
+      }
+    }
+  },
+  "exchange_0819": {
+    "categories": [
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_warehouse",
+        "id": "supply",
+        "name": "补给",
+        "order": 0
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_castle",
+        "id": "building",
+        "name": "建筑",
+        "order": 1
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_farm",
+        "id": "agriculture",
+        "name": "农业",
+        "order": 2
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_battle_arena",
+        "id": "combat",
+        "name": "战斗",
+        "order": 3
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_compass",
+        "id": "exploration",
+        "name": "探索",
+        "order": 4
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_event_gift",
+        "id": "event",
+        "name": "活动",
+        "order": 5
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_bank",
+        "id": "currency",
+        "name": "货币",
+        "order": 6
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_board",
+        "id": "other",
+        "name": "其他",
+        "order": 7
+      }
+    ],
+    "recipes": []
+  },
+  "exchange_0815": {
+    "categories": [
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_warehouse",
+        "id": "supply",
+        "name": "补给",
+        "order": 0
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_castle",
+        "id": "building",
+        "name": "建筑",
+        "order": 1
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_farm",
+        "id": "agriculture",
+        "name": "农业",
+        "order": 2
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_battle_arena",
+        "id": "combat",
+        "name": "战斗",
+        "order": 3
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_compass",
+        "id": "exploration",
+        "name": "探索",
+        "order": 4
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_event_gift",
+        "id": "event",
+        "name": "活动",
+        "order": 5
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_bank",
+        "id": "currency",
+        "name": "货币",
+        "order": 6
+      },
+      {
+        "iconTexture": "textures/ui/ppeco_exchange_category_icons/ppeco_exchange_category_board",
+        "id": "other",
+        "name": "其他",
+        "order": 7
+      }
+    ],
+    "recipes": []
+  },
+  "notice_0819": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补",
+  "notice_0815": "仅金币｜原版1380｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计1889｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核",
+  "notice_ours": "仅金币｜原版1733｜森罗厨201+酒152+偶68｜冰火69｜其他19｜合计2242｜死亡扣30%｜刷怪蛋不可回收｜药水aux待核｜铜器时代已补",
+  "shop_vs_0815": {
+    "a_count": 2269,
+    "b_count": 1889,
+    "a_by_ns": {
+      "ihzao": 15,
+      "ysm_maid": 10,
+      "breath_maid": 1,
+      "create": 1,
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "b_by_ns": {
+      "minecraft": 1380,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "added_n": 374,
+    "removed_n": 0,
+    "changed_n": 202,
+    "price_only_n": 202,
+    "tag_only_n": 0,
+    "recycle_only_n": 0,
+    "mixed_n": 0,
+    "changed_fields": {
+      "sell": 202,
+      "buy": 72
+    },
+    "added": [
+      "breath_maid:npc_xiang_1|d0|c1",
+      "create:ochrum|d0|c64",
+      "ihzao:ancient_debris_plht|d0|c1",
+      "ihzao:beef_plht|d0|c1",
+      "ihzao:chainmining|d0|c1",
+      "ihzao:chicken_plht|d0|c1",
+      "ihzao:fish_plht|d0|c1",
+      "ihzao:httravbag|d0|c1",
+      "ihzao:l_fallobjearehighl|d0|c1",
+      "ihzao:magnetht|d0|c1",
+      "ihzao:muttonraw_plht|d0|c1",
+      "ihzao:porkchop_plht|d0|c1",
+      "ihzao:rabbit_plht|d0|c1",
+      "ihzao:raw_copper_plht|d0|c1",
+      "ihzao:raw_gold_plht|d0|c1",
+      "ihzao:raw_iron_plht|d0|c1",
+      "ihzao:salmon_plht|d0|c1",
+      "minecraft:armadillo_scute|d0|c16",
+      "minecraft:arrow|d10|c64",
+      "minecraft:arrow|d11|c64",
+      "minecraft:arrow|d12|c64",
+      "minecraft:arrow|d13|c64",
+      "minecraft:arrow|d14|c64",
+      "minecraft:arrow|d15|c64",
+      "minecraft:arrow|d16|c64",
+      "minecraft:arrow|d17|c64",
+      "minecraft:arrow|d18|c64",
+      "minecraft:arrow|d19|c64",
+      "minecraft:arrow|d20|c64",
+      "minecraft:arrow|d21|c64",
+      "minecraft:arrow|d22|c64",
+      "minecraft:arrow|d23|c64",
+      "minecraft:arrow|d24|c64",
+      "minecraft:arrow|d25|c64",
+      "minecraft:arrow|d26|c64",
+      "minecraft:arrow|d27|c64",
+      "minecraft:arrow|d28|c64",
+      "minecraft:arrow|d29|c64",
+      "minecraft:arrow|d2|c64",
+      "minecraft:arrow|d30|c64",
+      "minecraft:arrow|d31|c64",
+      "minecraft:arrow|d32|c64",
+      "minecraft:arrow|d33|c64",
+      "minecraft:arrow|d34|c64",
+      "minecraft:arrow|d35|c64",
+      "minecraft:arrow|d36|c64",
+      "minecraft:arrow|d37|c64",
+      "minecraft:arrow|d38|c64",
+      "minecraft:arrow|d39|c64",
+      "minecraft:arrow|d3|c64",
+      "minecraft:arrow|d40|c64",
+      "minecraft:arrow|d41|c64",
+      "minecraft:arrow|d42|c64",
+      "minecraft:arrow|d43|c64",
+      "minecraft:arrow|d44|c64",
+      "minecraft:arrow|d45|c64",
+      "minecraft:arrow|d46|c64",
+      "minecraft:arrow|d4|c64",
+      "minecraft:arrow|d5|c64",
+      "minecraft:arrow|d6|c64",
+      "minecraft:arrow|d7|c64",
+      "minecraft:arrow|d8|c64",
+      "minecraft:arrow|d9|c64",
+      "minecraft:azalea_leaves_flowered|d0|c64",
+      "minecraft:azalea_leaves|d0|c64",
+      "minecraft:bamboo_chest_raft|d0|c1",
+      "minecraft:bamboo_raft|d0|c1",
+      "minecraft:bamboo_sapling|d0|c64",
+      "minecraft:bee_nest|d0|c16",
+      "minecraft:beehive|d0|c16",
+      "minecraft:black_bundle|d0|c1",
+      "minecraft:black_harness|d0|c1",
+      "minecraft:blue_bundle|d0|c1",
+      "minecraft:blue_harness|d0|c1",
+      "minecraft:bowl|d0|c64",
+      "minecraft:brain_coral_wall_fan|d0|c16",
+      "minecraft:brewing_stand|d0|c1",
+      "minecraft:brown_bundle|d0|c1",
+      "minecraft:brown_harness|d0|c1",
+      "minecraft:brown_mushroom_block|d0|c64"
+    ],
+    "removed": [],
+    "price_changes": [
+      {
+        "name": "bricefire:cooked_grassonger_meat",
+        "sell": "13.75 -> 10.8"
+      },
+      {
+        "name": "bricefire:cooked_raptor_meat",
+        "sell": "11.25 -> 9.0"
+      },
+      {
+        "name": "bricefire:dwarf_spawn_egg",
+        "sell": "10.0 -> 0.0"
+      },
+      {
+        "name": "bricefire:kpshop_npc_spawn_egg",
+        "sell": "10.0 -> 0.0"
+      },
+      {
+        "name": "kaleidoscope_cookery:apple_platter",
+        "sell": "49.5 -> 15.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:bamboo_tube_rice",
+        "sell": "24.22 -> 3.25"
+      },
+      {
+        "name": "kaleidoscope_cookery:baozi",
+        "sell": "25.0 -> 12.15"
+      },
+      {
+        "name": "kaleidoscope_cookery:barley_tea",
+        "sell": "19.13 -> 10.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:beef_meatball_soup",
+        "sell": "42.25 -> 10.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:beef_noodle",
+        "sell": "39.75 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:berry_platter",
+        "sell": "51.38 -> 18.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:biluochun",
+        "sell": "913.5 -> 432.0"
+      },
+      {
+        "name": "kaleidoscope_cookery:blaze_lamb_chop",
+        "sell": "67.34 -> 16.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:borscht",
+        "sell": "39.75 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:braised_beef_rice_bowl",
+        "sell": "42.03 -> 7.4"
+      },
+      {
+        "name": "kaleidoscope_cookery:braised_beef",
+        "sell": "25.31 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:braised_pork_ribs",
+        "sell": "24.14 -> 4.05"
+      },
+      {
+        "name": "kaleidoscope_cookery:buddha_jumps_over_the_wall",
+        "sell": "176.56 -> 44.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:chorus_fried_egg",
+        "sell": "65.0 -> 9.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:chorus_fruit_platter",
+        "sell": "60.75 -> 36.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:cold_roasted_meat",
+        "sell": "18.75 -> 11.7"
+      },
+      {
+        "name": "kaleidoscope_cookery:cold_style_sashimi",
+        "sell": "18.75 -> 9.0"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_cow_offal",
+        "sell": "12.94 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_cut_small_meats",
+        "sell": "12.82 -> 1.58"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_lamb_chops",
+        "sell": "12.94 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_meatball",
+        "sell": "14.81 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_pork_belly",
+        "sell": "12.94 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:cooked_rice",
+        "sell": "12.42 -> 1.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:crystal_lamb_chop",
+        "sell": "28.13 -> 9.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:desert_style_sashimi",
+        "sell": "18.75 -> 9.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:dongpo_pork",
+        "sell": "23.91 -> 3.6"
+      },
+      {
+        "name": "kaleidoscope_cookery:donkey_burger",
+        "sell": "18.44 -> 12.38"
+      },
+      {
+        "name": "kaleidoscope_cookery:dough_drop_soup",
+        "sell": "41.63 -> 7.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:dumpling",
+        "sell": "25.23 -> 12.15"
+      },
+      {
+        "name": "kaleidoscope_cookery:egg_fried_rice",
+        "sell": "29.46 -> 3.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:end_style_sashimi",
+        "sell": "37.5 -> 27.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:fearsome_thick_soup",
+        "sell": "834.31 -> 19.35"
+      },
+      {
+        "name": "kaleidoscope_cookery:flower_tea",
+        "sell": "24.75 -> 21.6"
+      },
+      {
+        "name": "kaleidoscope_cookery:fondant_pie",
+        "sell": "29.06 -> 13.5"
+      },
+      {
+        "name": "kaleidoscope_cookery:fondant_spider_eye",
+        "sell": "57.19 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:four_joy_meatball_soup",
+        "sell": "39.75 -> 7.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:fried_caterpillar",
+        "sell": "24.38 -> 4.5"
+      },
+      {
+        "name": "kaleidoscope_cookery:fried_egg",
+        "sell": "15.75 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:hot_dry_noodles",
+        "sell": "39.0 -> 8.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:hui_noodle",
+        "sell": "41.0 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:laba_congee",
+        "sell": "37.88 -> 3.6"
+      },
+      {
+        "name": "kaleidoscope_cookery:lamb_and_radish_soup",
+        "sell": "40.38 -> 5.4"
+      },
+      {
+        "name": "kaleidoscope_cookery:mantou",
+        "sell": "25.0 -> 7.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:meat_pie",
+        "sell": "15.75 -> 12.15"
+      },
+      {
+        "name": "kaleidoscope_cookery:nether_style_sashimi",
+        "sell": "37.5 -> 9.9"
+      },
+      {
+        "name": "kaleidoscope_cookery:numbing_spicy_chicken",
+        "sell": "38.69 -> 7.65"
+      },
+      {
+        "name": "kaleidoscope_cookery:oil_splashed_fish",
+        "sell": "25.78 -> 5.85"
+      },
+      {
+        "name": "kaleidoscope_cookery:oolong",
+        "sell": "1813.5 -> 864.0"
+      },
+      {
+        "name": "kaleidoscope_cookery:pan_seared_knight_steak",
+        "sell": "56.8 -> 5.85"
+      },
+      {
+        "name": "kaleidoscope_cookery:pork_bone_soup",
+        "sell": "36.94 -> 2.25"
+      },
+      {
+        "name": "kaleidoscope_cookery:pufferfish_soup",
+        "sell": "36.5 -> 4.5"
+      },
+      {
+        "name": "kaleidoscope_cookery:qingtuan_plate",
+        "sell": "57.0 -> 29.7"
+      },
+      {
+        "name": "kaleidoscope_cookery:qingtuan",
+        "sell": "25.0 -> 7.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_bamboo_tube_rice",
+        "sell": "5.0 -> 3.25"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_cow_offal",
+        "sell": "7.88 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_cut_small_meats",
+        "sell": "7.64 -> 1.58"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_noodles",
+        "sell": "9.75 -> 3.6"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_pork_belly",
+        "sell": "7.88 -> 1.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:raw_zongzi",
+        "sell": "5.0 -> 3.7"
+      },
+      {
+        "name": "kaleidoscope_cookery:sakura_fubuki",
+        "sell": "24.75 -> 21.6"
+      },
+      {
+        "name": "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl",
+        "sell": "45.78 -> 7.4"
+      },
+      {
+        "name": "kaleidoscope_cookery:scramble_egg_with_tomatoes",
+        "sell": "28.13 -> 6.3"
+      },
+      {
+        "name": "kaleidoscope_cookery:seafood_miso_soup",
+        "sell": "36.5 -> 4.5"
+      },
+      {
+        "name": "kaleidoscope_cookery:shengjian_mantou",
+        "sell": "25.0 -> 12.15"
+      },
+      {
+        "name": "kaleidoscope_cookery:slime_ball_meal",
+        "sell": "26.25 -> 8.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:spicy_blood_stew",
+        "sell": "47.13 -> 19.8"
+      },
+      {
+        "name": "kaleidoscope_cookery:spicy_chicken",
+        "sell": "26.02 -> 7.65"
+      },
+      {
+        "name": "kaleidoscope_cookery:spicy_rabbit_head",
+        "sell": "26.25 -> 8.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:stargazy_pie",
+        "sell": "64.22 -> 13.05"
+      },
+      {
+        "name": "kaleidoscope_cookery:sticky_candy_plate",
+        "sell": "57.0 -> 29.7"
+      },
+      {
+        "name": "kaleidoscope_cookery:sticky_candy",
+        "sell": "15.75 -> 7.2"
+      },
+      {
+        "name": "kaleidoscope_cookery:sticky_rice_cake_plate",
+        "sell": "58.04 -> 6.4"
+      },
+      {
+        "name": "kaleidoscope_cookery:sticky_rice_cake",
+        "sell": "15.21 -> 1.1"
+      },
+      {
+        "name": "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl",
+        "sell": "42.03 -> 7.4"
+      },
+      {
+        "name": "kaleidoscope_cookery:stir_fried_pork_with_peppers",
+        "sell": "25.31 -> 6.3"
+      }
+    ],
+    "tag_changes": [],
+    "recycle_changes": [],
+    "mixed_changes": []
+  },
+  "shop_vs_0818": {
+    "a_count": 2269,
+    "b_count": 2242,
+    "a_by_ns": {
+      "ihzao": 15,
+      "ysm_maid": 10,
+      "breath_maid": 1,
+      "create": 1,
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "b_by_ns": {
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "added_n": 27,
+    "removed_n": 7,
+    "changed_n": 5,
+    "price_only_n": 5,
+    "tag_only_n": 0,
+    "recycle_only_n": 0,
+    "mixed_n": 0,
+    "changed_fields": {
+      "buy": 5,
+      "sell": 5
+    },
+    "added": [
+      "breath_maid:npc_xiang_1|d0|c1",
+      "create:ochrum|d0|c64",
+      "ihzao:ancient_debris_plht|d0|c1",
+      "ihzao:beef_plht|d0|c1",
+      "ihzao:chainmining|d0|c1",
+      "ihzao:chicken_plht|d0|c1",
+      "ihzao:fish_plht|d0|c1",
+      "ihzao:httravbag|d0|c1",
+      "ihzao:l_fallobjearehighl|d0|c1",
+      "ihzao:magnetht|d0|c1",
+      "ihzao:muttonraw_plht|d0|c1",
+      "ihzao:porkchop_plht|d0|c1",
+      "ihzao:rabbit_plht|d0|c1",
+      "ihzao:raw_copper_plht|d0|c1",
+      "ihzao:raw_gold_plht|d0|c1",
+      "ihzao:raw_iron_plht|d0|c1",
+      "ihzao:salmon_plht|d0|c1",
+      "ysm_maid:drown_protect_bauble|d0|c1",
+      "ysm_maid:explosion_protect_bauble|d0|c1",
+      "ysm_maid:fall_protect_bauble|d0|c1",
+      "ysm_maid:fire_protect_bauble|d0|c1",
+      "ysm_maid:item_magnet_bauble|d0|c1",
+      "ysm_maid:prevention_protect_bauble|d0|c1",
+      "ysm_maid:projectile_protect_bauble|d0|c1",
+      "ysm_maid:regeneration_protect_bauble|d0|c1",
+      "ysm_maid:rename_card|d0|c1",
+      "ysm_maid:spawn_ysm_maid|d0|c1"
+    ],
+    "removed": [
+      "minecraft:arrow|d1|c64",
+      "minecraft:goat_horn|d1|c1",
+      "minecraft:lingering_potion|d1|c1",
+      "minecraft:ominous_bottle|d1|c16",
+      "minecraft:potion|d1|c1",
+      "minecraft:skull|d1|c1",
+      "minecraft:splash_potion|d1|c1"
+    ],
+    "price_changes": [
+      {
+        "name": "minecraft:arrow",
+        "buy": "2.0 -> 8.0",
+        "sell": "1.25 -> 5.0"
+      },
+      {
+        "name": "minecraft:ominous_bottle",
+        "buy": "150.0 -> 220.0",
+        "sell": "93.75 -> 137.5"
+      },
+      {
+        "name": "minecraft:potion",
+        "buy": "8.0 -> 10.0",
+        "sell": "5.0 -> 6.25"
+      },
+      {
+        "name": "minecraft:skull",
+        "buy": "200.0 -> 800.0",
+        "sell": "125.0 -> 500.0"
+      },
+      {
+        "name": "minecraft:splash_potion",
+        "buy": "12.0 -> 13.0",
+        "sell": "7.5 -> 8.13"
+      }
+    ],
+    "tag_changes": [],
+    "recycle_changes": [],
+    "mixed_changes": []
+  },
+  "shop_vs_ours": {
+    "a_count": 2269,
+    "b_count": 2242,
+    "a_by_ns": {
+      "ihzao": 15,
+      "ysm_maid": 10,
+      "breath_maid": 1,
+      "create": 1,
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "b_by_ns": {
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "added_n": 27,
+    "removed_n": 7,
+    "changed_n": 5,
+    "price_only_n": 5,
+    "tag_only_n": 0,
+    "recycle_only_n": 0,
+    "mixed_n": 0,
+    "changed_fields": {
+      "buy": 5,
+      "sell": 5
+    },
+    "added": [
+      "breath_maid:npc_xiang_1|d0|c1",
+      "create:ochrum|d0|c64",
+      "ihzao:ancient_debris_plht|d0|c1",
+      "ihzao:beef_plht|d0|c1",
+      "ihzao:chainmining|d0|c1",
+      "ihzao:chicken_plht|d0|c1",
+      "ihzao:fish_plht|d0|c1",
+      "ihzao:httravbag|d0|c1",
+      "ihzao:l_fallobjearehighl|d0|c1",
+      "ihzao:magnetht|d0|c1",
+      "ihzao:muttonraw_plht|d0|c1",
+      "ihzao:porkchop_plht|d0|c1",
+      "ihzao:rabbit_plht|d0|c1",
+      "ihzao:raw_copper_plht|d0|c1",
+      "ihzao:raw_gold_plht|d0|c1",
+      "ihzao:raw_iron_plht|d0|c1",
+      "ihzao:salmon_plht|d0|c1",
+      "ysm_maid:drown_protect_bauble|d0|c1",
+      "ysm_maid:explosion_protect_bauble|d0|c1",
+      "ysm_maid:fall_protect_bauble|d0|c1",
+      "ysm_maid:fire_protect_bauble|d0|c1",
+      "ysm_maid:item_magnet_bauble|d0|c1",
+      "ysm_maid:prevention_protect_bauble|d0|c1",
+      "ysm_maid:projectile_protect_bauble|d0|c1",
+      "ysm_maid:regeneration_protect_bauble|d0|c1",
+      "ysm_maid:rename_card|d0|c1",
+      "ysm_maid:spawn_ysm_maid|d0|c1"
+    ],
+    "removed": [
+      "minecraft:arrow|d1|c64",
+      "minecraft:goat_horn|d1|c1",
+      "minecraft:lingering_potion|d1|c1",
+      "minecraft:ominous_bottle|d1|c16",
+      "minecraft:potion|d1|c1",
+      "minecraft:skull|d1|c1",
+      "minecraft:splash_potion|d1|c1"
+    ],
+    "price_changes": [
+      {
+        "name": "minecraft:arrow",
+        "buy": "2.0 -> 8.0",
+        "sell": "1.25 -> 5.0"
+      },
+      {
+        "name": "minecraft:ominous_bottle",
+        "buy": "150.0 -> 220.0",
+        "sell": "93.75 -> 137.5"
+      },
+      {
+        "name": "minecraft:potion",
+        "buy": "8.0 -> 10.0",
+        "sell": "5.0 -> 6.25"
+      },
+      {
+        "name": "minecraft:skull",
+        "buy": "200.0 -> 800.0",
+        "sell": "125.0 -> 500.0"
+      },
+      {
+        "name": "minecraft:splash_potion",
+        "buy": "12.0 -> 13.0",
+        "sell": "7.5 -> 8.13"
+      }
+    ],
+    "tag_changes": [],
+    "recycle_changes": [],
+    "mixed_changes": []
+  },
+  "shop_stats": {
+    "count": 2269,
+    "by_ns": {
+      "ihzao": 15,
+      "ysm_maid": 10,
+      "breath_maid": 1,
+      "create": 1,
+      "minecraft": 1733,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "by_tag": {
+      "其他": 263,
+      "装备": 37,
+      "": 5,
+      "方块": 834,
+      "食物": 50,
+      "冰火传说": 67,
+      "刷怪蛋": 87,
+      "材料": 319,
+      "森罗物语（玩偶）": 68,
+      "森罗物语（酒馆）": 152,
+      "森罗物语（厨房）": 200,
+      "工具": 46,
+      "药水": 141
+    },
+    "recycle_on": 23,
+    "recycle_off": 2246,
+    "zero_buy": 1,
+    "zero_sell": 90,
+    "no_sell": 0,
+    "buy_min": 0.06,
+    "buy_max": 44550.0,
+    "buy_median": 25.0,
+    "sell_ratio_median": 0.625,
+    "sell_ratio_mean": 0.594117902017414
+  },
+  "other_top_vs_0815": [
+    {
+      "field": "customCoinTypes",
+      "0815": "<list n=1 first=dict>",
+      "0819": "<list n=1 first=dict>"
+    },
+    {
+      "field": "nameSpaceMap",
+      "0815": {
+        "bricefire": "4",
+        "farmers_tale_nullgr": "2",
+        "kaleidoscope_cookery": "1",
+        "kaleidoscope_doll": "5",
+        "kaleidoscope_tavern": "6",
+        "minecraft": "0",
+        "ws": "3"
+      },
+      "0819": {
+        "breath_maid": "2",
+        "bricefire": "8",
+        "create": "3",
+        "farmers_tale_nullgr": "6",
+        "ihzao": "0",
+        "kaleidoscope_cookery": "5",
+        "kaleidoscope_doll": "9",
+        "kaleidoscope_tavern": "10",
+        "minecraft": "4",
+        "ws": "7",
+        "ysm_maid": "1"
+      }
+    },
+    {
+      "field": "killEntityRewardMap",
+      "0815": {
+        "minecraft:cave_spider": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:chicken": [
+          1.0,
+          "金币"
+        ],
+        "minecraft:cod": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:cow": [
+          1.0,
+          "金币"
+        ],
+        "minecraft:creeper": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:drowned": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:frog": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:glow_squid": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:iron_golem": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:piglin": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:player": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:rabbit": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:skeleton": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:zombie": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:zombie_villager_v2": [
+          10.0,
+          "金币"
+        ]
+      },
+      "0819": {
+        "minecraft:chicken": [
+          5.0,
+          "金币"
+        ],
+        "minecraft:creeper": [
+          12.0,
+          "金币"
+        ],
+        "minecraft:skeleton": [
+          10.0,
+          "金币"
+        ],
+        "minecraft:zombie": [
+          10.0,
+          "金币"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+﻿id,action,old_buy,new_buy,old_sell,new_sell,reason
+minecraft:melon_block,reprice,8.0,19.8,5.0,12.38,9x melon_slice x1.1
+minecraft:snow,reprice,0.5,4.4,0.31,2.75,4x snowball x1.1
+minecraft:clay,reprice,2.0,8.8,1.25,5.5,4x clay_ball x1.1
+minecraft:dried_kelp_block,reprice,6.0,9.9,3.75,6.19,9x dried_kelp x1.1
+minecraft:lava_bucket,reprice,80.0,57.6,50.0,36.0,sell(lava)<buy(empty)
+minecraft:ender_chest,reprice,800.0,608.0,500.0,380.0,sell<8 obsidian+eye
+minecraft:fishing_rod,reprice,20.0,10.03,12.5,6.27,sell<3 stick+2 string
+bricefire:kpshop_npc_spawn_egg,cap-sell,800.0,800.0,10.0,0.0,spawn egg sell=0
+bricefire:dwarf_spawn_egg,cap-sell,800.0,800.0,10.0,0.0,spawn egg sell=0
+bricefire:cooked_grassonger_meat,cap-sell,22.0,22.0,13.75,10.8,cooked sell<raw bricefire:grassonger_meat
+bricefire:cooked_raptor_meat,cap-sell,18.0,18.0,11.25,9.0,cooked sell<raw bricefire:raptor_meat
+kaleidoscope_tavern:molotov,cap-sell,62.25,62.25,38.91,4.5,sell<mat 5.0
+kaleidoscope_tavern:miners_star,cap-sell,74.75,74.75,46.72,8.1,sell<mat 9.0
+kaleidoscope_tavern:honey_wine,cap-sell,51.0,51.0,31.88,11.7,sell<mat 13.0
+kaleidoscope_tavern:madame_shexiang,cap-sell,51.0,51.0,31.88,10.5,sell<mat 11.67
+kaleidoscope_tavern:sunset_glow,cap-sell,58.0,58.0,36.25,18.0,sell<mat 20.0
+kaleidoscope_tavern:sauvignon_blanc_dry_white,cap-sell,47.0,47.0,29.38,8.1,sell<mat 9.0
+kaleidoscope_tavern:plum_wine,cap-sell,43.0,43.0,26.88,6.3,sell<mat 7.0
+kaleidoscope_tavern:rum,cap-sell,42.2,42.2,26.38,6.3,sell<mat 7.0
+kaleidoscope_tavern:whiskey,cap-sell,43.2,43.2,27.0,7.2,sell<mat 8.0
+kaleidoscope_tavern:vodka,cap-sell,43.2,43.2,27.0,7.2,sell<mat 8.0
+kaleidoscope_tavern:red_queen,cap-sell,43.57,43.57,27.23,6.81,sell<mat 7.57
+kaleidoscope_tavern:sweet_berry_wine,cap-sell,43.0,43.0,26.88,6.3,sell<mat 7.0
+kaleidoscope_tavern:glowflower_brew,cap-sell,49.0,49.0,30.63,9.9,sell<mat 11.0
+kaleidoscope_tavern:luminous_bride,cap-sell,51.0,51.0,31.88,11.7,sell<mat 13.0
+kaleidoscope_tavern:riesling_dry_white,cap-sell,47.0,47.0,29.38,8.1,sell<mat 9.0
+kaleidoscope_tavern:mother_snow,cap-sell,45.0,45.0,28.13,6.3,sell<mat 7.0
+kaleidoscope_tavern:polaris_sweet_white,cap-sell,49.0,49.0,30.63,22.32,sell<mat 24.8
+kaleidoscope_tavern:carignan,cap-sell,45.0,45.0,28.13,6.3,sell<mat 7.0
+kaleidoscope_tavern:brandy,cap-sell,47.0,47.0,29.38,8.1,sell<mat 9.0
+kaleidoscope_tavern:ice_wine,cap-sell,43.0,43.0,26.88,4.5,sell<mat 5.0
+kaleidoscope_tavern:champagne,cap-sell,45.0,45.0,28.13,6.3,sell<mat 7.0
+kaleidoscope_tavern:sakura_wine,cap-sell,45.0,45.0,28.13,6.3,sell<mat 7.0
+kaleidoscope_tavern:wine,cap-sell,43.0,43.0,26.88,4.5,sell<mat 5.0
+kaleidoscope_cookery:sakura_fubuki,cap-sell,39.6,39.6,24.75,21.6,sell<mat 24.0
+kaleidoscope_cookery:oolong,cap-sell,2901.6,2901.6,1813.5,864.0,sell<mat 960.0
+kaleidoscope_cookery:barley_tea,cap-sell,30.6,30.6,19.13,10.8,sell<mat 12.0
+kaleidoscope_cookery:flower_tea,cap-sell,39.6,39.6,24.75,21.6,sell<mat 24.0
+kaleidoscope_cookery:biluochun,cap-sell,1461.6,1461.6,913.5,432.0,sell<mat 480.0
+kaleidoscope_cookery:buddha_jumps_over_the_wall,cap-sell,282.5,282.5,176.56,44.1,sell<mat 49.0
+kaleidoscope_cookery:oil_splashed_fish,cap-sell,41.25,41.25,25.78,5.85,sell<mat 6.5
+kaleidoscope_cookery:cold_roasted_meat,cap-sell,30.0,30.0,18.75,11.7,sell<mat 13.0
+kaleidoscope_cookery:spicy_rabbit_head,cap-sell,42.0,42.0,26.25,8.1,sell<mat 9.0
+kaleidoscope_cookery:spicy_blood_stew,cap-sell,75.4,75.4,47.13,19.8,sell<mat 22.0
+kaleidoscope_cookery:braised_pork_ribs,cap-sell,38.63,38.63,24.14,4.05,sell<mat 4.5
+kaleidoscope_cookery:stuffed_tiger_skin_pepper,cap-sell,40.31,40.31,25.19,6.08,sell<mat 6.75
+kaleidoscope_cookery:numbing_spicy_chicken,cap-sell,61.9,61.9,38.69,7.65,sell<mat 8.5
+kaleidoscope_cookery:fried_caterpillar,cap-sell,39.0,39.0,24.38,4.5,sell<mat 5.0
+kaleidoscope_cookery:four_joy_meatball_soup,cap-sell,63.6,63.6,39.75,7.2,sell<mat 8.0
+kaleidoscope_cookery:dough_drop_soup,cap-sell,66.6,66.6,41.63,7.2,sell<mat 8.0
+kaleidoscope_cookery:shengjian_mantou,cap-sell,40.0,40.0,25.0,12.15,sell<mat 13.5
+kaleidoscope_cookery:crystal_lamb_chop,cap-sell,45.0,45.0,28.13,9.9,sell<mat 11.0
+kaleidoscope_cookery:blaze_lamb_chop,cap-sell,107.75,107.75,67.34,16.2,sell<mat 18.0
+kaleidoscope_cookery:desert_style_sashimi,cap-sell,30.0,30.0,18.75,9.9,sell<mat 11.0
+kaleidoscope_cookery:nether_style_sashimi,cap-sell,60.0,60.0,37.5,9.9,sell<mat 11.0
+kaleidoscope_cookery:cold_style_sashimi,cap-sell,30.0,30.0,18.75,9.0,sell<mat 10.0
+kaleidoscope_cookery:end_style_sashimi,cap-sell,60.0,60.0,37.5,27.9,sell<mat 31.0
+kaleidoscope_cookery:sweet_and_sour_ender_pearls,cap-sell,724.0,724.0,452.5,116.1,sell<mat 129.0
+kaleidoscope_cookery:stargazy_pie,cap-sell,102.75,102.75,64.22,13.05,sell<mat 14.5
+kaleidoscope_cookery:spicy_chicken,cap-sell,41.63,41.63,26.02,7.65,sell<mat 8.5
+kaleidoscope_cookery:pan_seared_knight_steak,cap-sell,90.88,90.88,56.8,5.85,sell<mat 6.5
+kaleidoscope_cookery:fondant_pie,cap-sell,46.5,46.5,29.06,13.5,sell<mat 15.0
+kaleidoscope_cookery:fondant_spider_eye,cap-sell,91.5,91.5,57.19,6.3,sell<mat 7.0
+kaleidoscope_cookery:dongpo_pork,cap-sell,38.25,38.25,23.91,3.6,sell<mat 4.0
+kaleidoscope_cookery:chorus_fried_egg,cap-sell,104.0,104.0,65.0,9.9,sell<mat 11.0
+kaleidoscope_cookery:slime_ball_meal,cap-sell,42.0,42.0,26.25,8.1,sell<mat 9.0
+kaleidoscope_cookery:udon_noodle,cap-sell,73.6,73.6,46.0,9.9,sell<mat 11.0
+kaleidoscope_cookery:hui_noodle,cap-sell,65.6,65.6,41.0,6.3,sell<mat 7.0
+kaleidoscope_cookery:beef_noodle,cap-sell,63.6,63.6,39.75,6.3,sell<mat 7.0
+kaleidoscope_cookery:seafood_miso_soup,cap-sell,58.4,58.4,36.5,4.5,sell<mat 5.0
+kaleidoscope_cookery:pufferfish_soup,cap-sell,58.4,58.4,36.5,4.5,sell<mat 5.0
+kaleidoscope_cookery:pork_bone_soup,cap-sell,59.1,59.1,36.94,2.25,sell<mat 2.5
+kaleidoscope_cookery:lamb_and_radish_soup,cap-sell,64.6,64.6,40.38,5.4,sell<mat 6.0
+kaleidoscope_cookery:fearsome_thick_soup,cap-sell,1334.9,1334.9,834.31,19.35,sell<mat 21.5
+kaleidoscope_cookery:borscht,cap-sell,63.6,63.6,39.75,6.3,sell<mat 7.0
+kaleidoscope_cookery:beef_meatball_soup,cap-sell,67.6,67.6,42.25,10.8,sell<mat 12.0
+kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl,cap-sell,65.24,65.24,40.78,5.6,sell<mat 6.22
+kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl,cap-sell,67.24,67.24,42.03,7.4,sell<mat 8.22
+kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl,cap-sell,73.24,73.24,45.78,7.4,sell<mat 8.22
+kaleidoscope_cookery:braised_beef_rice_bowl,cap-sell,67.24,67.24,42.03,7.4,sell<mat 8.22
+kaleidoscope_cookery:sweet_and_sour_pork,cap-sell,39.0,39.0,24.38,4.5,sell<mat 5.0
+kaleidoscope_cookery:stir_fried_pork_with_peppers,cap-sell,40.5,40.5,25.31,6.3,sell<mat 7.0
+kaleidoscope_cookery:scramble_egg_with_tomatoes,cap-sell,45.0,45.0,28.13,6.3,sell<mat 7.0
+kaleidoscope_cookery:braised_beef,cap-sell,40.5,40.5,25.31,6.3,sell<mat 7.0
+kaleidoscope_cookery:fried_egg,cap-sell,25.2,25.2,15.75,1.8,sell<mat 2.0
+kaleidoscope_cookery:cooked_rice,cap-sell,19.87,19.87,12.42,1.1,sell<mat 1.22
+kaleidoscope_cookery:dumpling,cap-sell,40.36,40.36,25.23,12.15,sell<mat 13.5
+kaleidoscope_cookery:meat_pie,cap-sell,25.2,25.2,15.75,12.15,sell<mat 13.5
+kaleidoscope_cookery:baozi,cap-sell,40.0,40.0,25.0,12.15,sell<mat 13.5
+kaleidoscope_cookery:mantou,cap-sell,40.0,40.0,25.0,7.2,sell<mat 8.0
+kaleidoscope_cookery:cooked_meatball,cap-sell,23.7,23.7,14.81,6.3,sell<mat 7.0
+kaleidoscope_cookery:cooked_pork_belly,cap-sell,20.7,20.7,12.94,1.8,sell<mat 2.0
+kaleidoscope_cookery:cooked_cut_small_meats,cap-sell,20.51,20.51,12.82,1.58,sell<mat 1.75
+kaleidoscope_cookery:cooked_cow_offal,cap-sell,20.7,20.7,12.94,1.8,sell<mat 2.0
+kaleidoscope_cookery:cooked_lamb_chops,cap-sell,20.7,20.7,12.94,1.8,sell<mat 2.0
+kaleidoscope_cookery:raw_cut_small_meats,cap-sell,12.23,12.23,7.64,1.58,sell<mat 1.75
+kaleidoscope_cookery:raw_pork_belly,cap-sell,12.6,12.6,7.88,1.8,sell<mat 2.0
+kaleidoscope_cookery:raw_cow_offal,cap-sell,12.6,12.6,7.88,1.8,sell<mat 2.0
+kaleidoscope_cookery:apple_platter,cap-sell,79.2,79.2,49.5,15.3,sell<mat 17.0
+kaleidoscope_cookery:bamboo_tube_rice,cap-sell,38.75,38.75,24.22,3.25,sell<mat 3.61
+kaleidoscope_cookery:berry_platter,cap-sell,82.2,82.2,51.38,18.9,sell<mat 21.0
+kaleidoscope_cookery:chorus_fruit_platter,cap-sell,97.2,97.2,60.75,36.9,sell<mat 41.0
+kaleidoscope_cookery:donkey_burger,cap-sell,29.51,29.51,18.44,12.38,sell<mat 13.75
+kaleidoscope_cookery:egg_fried_rice,cap-sell,47.13,47.13,29.46,3.8,sell<mat 4.22
+kaleidoscope_cookery:hot_dry_noodles,cap-sell,62.4,62.4,39.0,8.1,sell<mat 9.0
+kaleidoscope_cookery:laba_congee,cap-sell,60.6,60.6,37.88,3.6,sell<mat 4.0
+kaleidoscope_cookery:qingtuan,cap-sell,40.0,40.0,25.0,7.2,sell<mat 8.0
+kaleidoscope_cookery:qingtuan_plate,cap-sell,91.2,91.2,57.0,29.7,sell<mat 33.0
+kaleidoscope_cookery:raw_bamboo_tube_rice,cap-sell,8.0,8.0,5.0,3.25,sell<mat 3.61
+kaleidoscope_cookery:raw_noodles,cap-sell,15.6,15.6,9.75,3.6,sell<mat 4.0
+kaleidoscope_cookery:raw_zongzi,cap-sell,8.0,8.0,5.0,3.7,sell<mat 4.11
+kaleidoscope_cookery:sticky_candy,cap-sell,25.2,25.2,15.75,7.2,sell<mat 8.0
+kaleidoscope_cookery:sticky_candy_plate,cap-sell,91.2,91.2,57.0,29.7,sell<mat 33.0
+kaleidoscope_cookery:sticky_rice_cake,cap-sell,24.33,24.33,15.21,1.1,sell<mat 1.22
+kaleidoscope_cookery:sticky_rice_cake_plate,cap-sell,92.87,92.87,58.04,6.4,sell<mat 7.11
+kaleidoscope_cookery:tomato_platter,cap-sell,82.2,82.2,51.38,18.9,sell<mat 21.0
+kaleidoscope_cookery:watermelon_platter,cap-sell,71.7,71.7,44.81,6.3,sell<mat 7.0
+kaleidoscope_cookery:zongzi,cap-sell,39.36,39.36,24.6,3.7,sell<mat 4.11
+kaleidoscope_cookery:zongzi_plate,cap-sell,89.27,89.27,55.79,15.7,sell<mat 17.44
+kaleidoscope_tavern:allium_garden,cap-sell,65.0,65.0,40.63,13.5,sell<mat 15.0
+kaleidoscope_tavern:bloody_mary,cap-sell,65.0,65.0,40.63,18.9,sell<mat 21.0
+kaleidoscope_tavern:brass_heart,cap-sell,77.0,77.0,48.13,24.3,sell<mat 27.0
+kaleidoscope_tavern:depth_charge,cap-sell,64.2,64.2,40.13,15.3,sell<mat 17.0
+kaleidoscope_tavern:emerald,cap-sell,77.0,77.0,48.13,24.3,sell<mat 27.0
+kaleidoscope_tavern:glow_berries_juice,cap-sell,23.7,23.7,14.81,9.9,sell<mat 11.0
+kaleidoscope_tavern:godfather,cap-sell,69.0,69.0,43.13,20.7,sell<mat 23.0
+kaleidoscope_tavern:gold_grape_juice,cap-sell,23.7,23.7,14.81,9.9,sell<mat 11.0
+kaleidoscope_tavern:grape_juice,cap-sell,23.7,23.7,14.81,9.9,sell<mat 11.0
+kaleidoscope_tavern:grasshopper,cap-sell,72.2,72.2,45.13,22.5,sell<mat 25.0
+kaleidoscope_tavern:green_grape_juice,cap-sell,23.7,23.7,14.81,9.9,sell<mat 11.0
+kaleidoscope_tavern:ice_grape_juice,cap-sell,23.7,23.7,14.81,9.9,sell<mat 11.0
+kaleidoscope_tavern:mojito,cap-sell,67.4,67.4,42.13,20.7,sell<mat 23.0
+kaleidoscope_tavern:nether_special,cap-sell,102.25,102.25,63.91,18.9,sell<mat 21.0
+kaleidoscope_tavern:screwdriver,cap-sell,81.0,81.0,50.63,27.9,sell<mat 31.0
+kaleidoscope_tavern:sculk_special,cap-sell,97.25,97.25,60.78,13.5,sell<mat 15.0
+kaleidoscope_tavern:sweet_berries_juice,cap-sell,22.2,22.2,13.88,8.1,sell<mat 9.0
+kaleidoscope_tavern:white_lady,cap-sell,74.2,74.2,46.38,24.3,sell<mat 27.0
+minecraft:potion#1,potion-aux,,10.0,,6.25,tag=药水
+minecraft:splash_potion#1,splash-aux,,13.0,,8.13,tag=药水
+minecraft:potion#2,potion-aux,,10.0,,6.25,tag=药水
+minecraft:splash_potion#2,splash-aux,,13.0,,8.13,tag=药水
+minecraft:potion#3,potion-aux,,10.0,,6.25,tag=药水
+minecraft:splash_potion#3,splash-aux,,13.0,,8.13,tag=药水
+minecraft:potion#4,potion-aux,,12.0,,7.5,tag=药水
+minecraft:splash_potion#4,splash-aux,,15.6,,9.75,tag=药水
+minecraft:potion#20,potion-aux,,55.0,,34.38,tag=药水
+minecraft:splash_potion#20,splash-aux,,71.5,,44.69,tag=药水
+minecraft:potion#41,potion-aux,,70.0,,43.75,tag=药水
+minecraft:splash_potion#41,splash-aux,,91.0,,56.88,tag=药水
+minecraft:potion#42,potion-aux,,55.0,,34.38,tag=药水
+minecraft:splash_potion#42,splash-aux,,71.5,,44.69,tag=药水
+minecraft:potion#43,potion-aux,,90.0,,56.25,tag=药水
+minecraft:splash_potion#43,splash-aux,,117.0,,73.13,tag=药水
+minecraft:potion#44,potion-aux,,90.0,,56.25,tag=药水
+minecraft:splash_potion#44,splash-aux,,117.0,,73.13,tag=药水
+minecraft:potion#45,potion-aux,,90.0,,56.25,tag=药水
+minecraft:splash_potion#45,splash-aux,,117.0,,73.13,tag=药水
+minecraft:potion#46,potion-aux,,90.0,,56.25,tag=药水
+minecraft:splash_potion#46,splash-aux,,117.0,,73.13,tag=药水
+minecraft:lingering_potion#1,lingering-aux,,16.0,,10.0,tag=药水
+minecraft:lingering_potion#2,lingering-aux,,16.0,,10.0,tag=药水
+minecraft:lingering_potion#3,lingering-aux,,16.0,,10.0,tag=药水
+minecraft:lingering_potion#4,lingering-aux,,19.2,,12.0,tag=药水
+minecraft:lingering_potion#5,lingering-aux,,56.0,,35.0,tag=药水
+minecraft:lingering_potion#6,lingering-aux,,64.0,,40.0,tag=药水
+minecraft:lingering_potion#7,lingering-aux,,56.0,,35.0,tag=药水
+minecraft:lingering_potion#8,lingering-aux,,64.0,,40.0,tag=药水
+minecraft:lingering_potion#9,lingering-aux,,56.0,,35.0,tag=药水
+minecraft:lingering_potion#10,lingering-aux,,64.0,,40.0,tag=药水
+minecraft:lingering_potion#13,lingering-aux,,64.0,,40.0,tag=药水
+minecraft:lingering_potion#14,lingering-aux,,88.0,,55.0,tag=药水
+minecraft:lingering_potion#15,lingering-aux,,72.0,,45.0,tag=药水
+minecraft:lingering_potion#16,lingering-aux,,80.0,,50.0,tag=药水
+minecraft:lingering_potion#19,lingering-aux,,72.0,,45.0,tag=药水
+minecraft:lingering_potion#20,lingering-aux,,88.0,,55.0,tag=药水
+minecraft:lingering_potion#23,lingering-aux,,72.0,,45.0,tag=药水
+minecraft:lingering_potion#24,lingering-aux,,80.0,,50.0,tag=药水
+minecraft:lingering_potion#26,lingering-aux,,80.0,,50.0,tag=药水
+minecraft:lingering_potion#27,lingering-aux,,64.0,,40.0,tag=药水
+minecraft:lingering_potion#30,lingering-aux,,80.0,,50.0,tag=药水
+minecraft:lingering_potion#32,lingering-aux,,72.0,,45.0,tag=药水
+minecraft:lingering_potion#34,lingering-aux,,112.0,,70.0,tag=药水
+minecraft:lingering_potion#35,lingering-aux,,104.0,,65.0,tag=药水
+minecraft:lingering_potion#36,lingering-aux,,128.0,,80.0,tag=药水
+minecraft:lingering_potion#37,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#38,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#39,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#40,lingering-aux,,160.0,,100.0,tag=药水
+minecraft:lingering_potion#41,lingering-aux,,112.0,,70.0,tag=药水
+minecraft:lingering_potion#42,lingering-aux,,88.0,,55.0,tag=药水
+minecraft:lingering_potion#43,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#44,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#45,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:lingering_potion#46,lingering-aux,,144.0,,90.0,tag=药水
+minecraft:arrow#1,tipped-arrow,,8.0,,5.0,tag=材料
+minecraft:arrow#2,tipped-arrow,,8.0,,5.0,tag=材料
+minecraft:arrow#3,tipped-arrow,,8.0,,5.0,tag=材料
+minecraft:arrow#4,tipped-arrow,,8.0,,5.0,tag=材料
+minecraft:arrow#5,tipped-arrow,,14.25,,8.91,tag=材料
+minecraft:arrow#6,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#7,tipped-arrow,,14.25,,8.91,tag=材料
+minecraft:arrow#8,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#9,tipped-arrow,,14.25,,8.91,tag=材料
+minecraft:arrow#10,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#11,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#12,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#13,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#14,tipped-arrow,,21.25,,13.28,tag=材料
+minecraft:arrow#15,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#16,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#17,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#18,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#19,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#20,tipped-arrow,,21.25,,13.28,tag=材料
+minecraft:arrow#21,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#22,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#23,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#24,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#25,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#26,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#27,tipped-arrow,,16.0,,10.0,tag=材料
+minecraft:arrow#28,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#29,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#30,tipped-arrow,,19.5,,12.19,tag=材料
+minecraft:arrow#31,tipped-arrow,,21.25,,13.28,tag=材料
+minecraft:arrow#32,tipped-arrow,,17.75,,11.09,tag=材料
+minecraft:arrow#33,tipped-arrow,,23.0,,14.38,tag=材料
+minecraft:arrow#34,tipped-arrow,,26.5,,16.56,tag=材料
+minecraft:arrow#35,tipped-arrow,,24.75,,15.47,tag=材料
+minecraft:arrow#36,tipped-arrow,,30.0,,18.75,tag=材料
+minecraft:arrow#37,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#38,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#39,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#40,tipped-arrow,,37.0,,23.13,tag=材料
+minecraft:arrow#41,tipped-arrow,,26.5,,16.56,tag=材料
+minecraft:arrow#42,tipped-arrow,,21.25,,13.28,tag=材料
+minecraft:arrow#43,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#44,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#45,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:arrow#46,tipped-arrow,,33.5,,20.94,tag=材料
+minecraft:ominous_bottle#1,ominous-level,,220.0,,137.5,tag=材料
+minecraft:ominous_bottle#2,ominous-level,,290.0,,181.25,tag=材料
+minecraft:ominous_bottle#3,ominous-level,,360.0,,225.0,tag=材料
+minecraft:ominous_bottle#4,ominous-level,,430.0,,268.75,tag=材料
+minecraft:goat_horn#1,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#2,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#3,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#4,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#5,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#6,goat-horn,,120.0,,75.0,tag=材料
+minecraft:goat_horn#7,goat-horn,,120.0,,75.0,tag=材料
+minecraft:lit_pumpkin#0,bedrock jack-o-lantern,,8.0,,5.0,tag=方块

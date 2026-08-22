@@ -1,0 +1,17 @@
+changes=252 mc=1733 total=2242 share=30209 crafted=284
+  [OK] melon uncraft: -8.55
+  [OK] snow uncraft: -1.88
+  [OK] clay uncraft: -3.8
+  [OK] lava fill: -4.0
+  [OK] ender_chest craft-sell: -20.0
+  [OK] fishing_rod craft-sell: -0.33
+  [OK] fried_egg vs egg: -0.2
+  [OK] cooked_rice vs rice: -2.9
+  [OK] oolong vs 12 breath: -96.0
+  [OK] bricefire:kpshop_npc_spawn_egg: 0.0
+  [OK] bricefire:dwarf_spawn_egg: 0.0
+  [OK] has potion#43
+  [OK] has arrow#43
+  [OK] has ominous_bottle#4
+  [OK] has goat_horn#7
+  [OK] has lit_pumpkin#0

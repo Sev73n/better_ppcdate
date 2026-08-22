@@ -1,0 +1,7 @@
+﻿action,from,to_or_reason,buy,sell
+rename,zombified_piglin_spawn_egg,zombie_pigman_spawn_egg,4000.0,0.0
+remove,furnace_minecart,基岩版有意未加入/不可用（Wiki）,60.0,37.5
+rename,glow_item_frame,glow_frame,12.0,7.5
+rename,item_frame,frame,6.0,3.75
+rename,small_dripleaf,small_dripleaf_block,4.0,2.5
+remove,spectral_arrow,Java专属，基岩版不存在,6.0,3.75

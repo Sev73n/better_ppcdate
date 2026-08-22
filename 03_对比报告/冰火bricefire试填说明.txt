@@ -1,0 +1,19 @@
+冰火 bricefire 规律与本批说明
+================================
+
+【已验证规律】
+1. 命名空间 bricefire（非 iceandfire）
+2. 物品 ID 基本照搬 Java 冰火注册名：
+   - dragon_meal ✓（你游戏内确认）
+   - amphithere_arrow / amphithere_feather / amphithere_skull ✓（/give 补全可见）
+3. 因此 Java 的 dragonbone / witherbone / fire_dragon_flesh 优先于
+   dragon_bone / wither_bone / fire_dragon_meat 这类「拆词猜测」
+4. 比特萝卜自研内容另用 snake_case：grassonger_meat、raptor_meat、afrozen_potion 等
+
+【本批】常见喂养/材料/弹药/基础实用物
+【未加】龙蛋、创造龙餐、龙钢、Boss装、神器级
+
+删除错误备用: ['fire_dragon_meat', 'ice_dragon_meat', 'lightning_dragon_meat', 'dragon_bone', 'wither_bone', 'witherbone_shard', 'dragon_bone_arrow', 'amphithere_meat', 'cooked_amphithere_meat', 'hippogryph_meat', 'cooked_hippogryph_meat', 'sea_serpent_meat', 'cooked_sea_serpent_meat', 'troll_meat', 'cooked_troll_meat']
+新加: 32
+当前 bricefire 条目: 48
+商店总数: 1194 (was 1177)

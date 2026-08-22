@@ -1,0 +1,32 @@
+{
+  "sell_rate": 0.625,
+  "decimal_places": 2,
+  "diamond_stack_buy": 200.0,
+  "elytra_buy": 13140.0,
+  "farm_spawn_egg_buy": 200.0,
+  "labor": {
+    "L0": 1.5,
+    "L1": 3.0,
+    "L2": 4.0,
+    "L3": 5.0
+  },
+  "spawn_egg_tiers": {
+    "T1": 200,
+    "T2": 600,
+    "T3": 1500,
+    "T4": 4000,
+    "T5": 8000,
+    "T6": 13140
+  },
+  "doll_tiers_mild": {
+    "T1_farm": 100,
+    "T2_utility": 200,
+    "T3_hostile": 250,
+    "T4_nether": 600,
+    "T5_high": 1000,
+    "T6_boss": 1500,
+    "special": 200,
+    "note": "玩偶不按刷怪蛋×0.5；装饰收藏温和档"
+  },
+  "labor_note": "方案B：官方配方材料单价(mat_only不叠人工)×最终人工C+flat；原料/厨具保持原价"
+}

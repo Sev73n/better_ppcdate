@@ -1,0 +1,184 @@
+商店审计（压缩块修复后）
+================================================
+原版条目: 1294
+
+【压缩块修复】
+ *diamond_block                 30.94 ->    1980.00  (9x200.0x1.1)
+ *emerald_block                 18.56 ->    1188.00  (9x120.0x1.1)
+ *gold_block                    11.14 ->     712.80  (9x72.0x1.1)
+ *iron_block                     5.57 ->     356.40  (9x36.0x1.1)
+ *coal_block                     1.24 ->      79.20  (9x8.0x1.1)
+ *lapis_block                    4.33 ->     277.20  (9x28.0x1.1)
+ *redstone_block                 2.48 ->     158.40  (9x16.0x1.1)
+ *copper_block                   1.86 ->     118.80  (9x12.0x1.1)
+  netherite_block            44550.00 ->   44550.00  (9x4500.0x1.1)
+ *raw_iron_block                 4.64 ->     297.00  (9x30.0x1.1)
+ *raw_gold_block                 9.28 ->     594.00  (9x60.0x1.1)
+ *raw_copper_block               1.55 ->      99.00  (9x10.0x1.1)
+ *slime_block                    1.24 ->      79.20  (9x8.0x1.1)
+ *quartz_block                  11.04 ->      44.00  (4x10.0x1.1)
+ *amethyst_block                 0.55 ->      35.20  (4x8.0x1.1)
+ *honey_block                    3.30 ->      52.80  (4x12.0x1.1)
+
+【仍存在的压缩/合成套利】
+  hay_block              buy=8.0  9xwheat buy=3.0 sell=1.88  拆开卖赚8.92
+  honeycomb_block        buy=8.8  4xhoneycomb buy=8.0 sell=4.0  拆开卖赚7.2
+  snow                   buy=0.5  4xsnowball buy=1.0 sell=0.63  拆开卖赚2.02
+  clay                   buy=2.0  4xclay_ball buy=2.0 sell=1.25  拆开卖赚3.0
+  bricks                 buy=2.0  4xbrick buy=1.0 sell=0.63  拆开卖赚0.52
+  nether_brick           buy=2.0  4xnetherbrick buy=1.5 sell=0.94  拆开卖赚1.76
+  glowstone              buy=12.0  4xglowstone_dust buy=6.0 sell=3.75  拆开卖赚3.0
+  magma                  buy=8.0  4xmagma_cream buy=20.0 sell=12.5  拆开卖赚42.0
+  prismarine             buy=8.0  4xprismarine_shard buy=6.0 sell=3.75  拆开卖赚7.0
+  honeycomb_block        buy=8.8  4xhoneycomb buy=8.0 sell=4.0  拆开卖赚7.2
+  hay_block              buy=8.0  9xwheat buy=3.0 sell=1.88  拆开卖赚8.92
+  glowstone              buy=12.0  4xglowstone_dust buy=6.0 sell=3.75  拆开卖赚3.0
+  clay                   buy=2.0  4xclay_ball buy=2.0 sell=1.25  拆开卖赚3.0
+  bricks                 buy=2.0  4xbrick buy=1.0 sell=0.63  拆开卖赚0.52
+  snow                   buy=0.5  4xsnowball buy=1.0 sell=0.63  拆开卖赚2.02
+  prismarine             buy=8.0  4xprismarine_shard buy=6.0 sell=3.75  拆开卖赚7.0
+  sandstone              buy=1.2  4xsand buy=1.0 sell=0.63  拆开卖赚1.32
+  red_sandstone          buy=1.5  4xred_sand buy=1.2 sell=0.75  拆开卖赚1.5
+  packed_ice             buy=6.0  9xice buy=2.0 sell=1.25  拆开卖赚5.25
+  blue_ice               buy=18.0  9xpacked_ice buy=6.0 sell=3.75  拆开卖赚15.75
+
+【台阶套利 top】
+  brick                        brick_slab                   块→2台阶=0.38  2台阶→块=-1.57
+
+【楼梯套利 top】
+  quartz                   quartz_stairs                4块→6梯=22.1  4梯→3块=-47.49
+  smooth_quartz            smooth_quartz_stairs         4块→6梯=19.78  4梯→3块=-50.11
+  dark_prismarine          dark_prismarine_stairs       4块→6梯=16.28  4梯→3块=-41.25
+  prismarine_bricks        prismarine_brick_stairs      4块→6梯=16.28  4梯→3块=-41.25
+  prismarine               prismarine_stairs            4块→6梯=13.0  4梯→3块=-33.0
+  brick                    brick_stairs                 4块→6梯=7.28  4梯→3块=-10.11
+  end_bricks               end_brick_stairs             4块→6梯=6.5  4梯→3块=-16.5
+  end_stone_bricks         end_stone_brick_stairs       4块→6梯=6.5  4梯→3块=-16.5
+  red_nether_brick         red_nether_brick_stairs      4块→6梯=4.86  4梯→3块=-12.36
+  nether_brick             nether_brick_stairs          4块→6梯=3.28  4梯→3块=-8.25
+  cut_copper               cut_copper_stairs            4块→6梯=3.18  4梯→3块=-8.06
+  weathered_cut_copper     weathered_cut_copper_stairs  4块→6梯=3.18  4梯→3块=-8.06
+  waxed_exposed_cut_copper waxed_exposed_cut_copper_stairs 4块→6梯=3.18  4梯→3块=-8.06
+  waxed_oxidized_cut_copper waxed_oxidized_cut_copper_stairs 4块→6梯=3.18  4梯→3块=-8.06
+  oxidized_cut_copper      oxidized_cut_copper_stairs   4块→6梯=3.18  4梯→3块=-8.06
+  waxed_cut_copper         waxed_cut_copper_stairs      4块→6梯=3.18  4梯→3块=-8.06
+  exposed_cut_copper       exposed_cut_copper_stairs    4块→6梯=3.18  4梯→3块=-8.06
+  waxed_weathered_cut_copper waxed_weathered_cut_copper_stairs 4块→6梯=3.18  4梯→3块=-8.06
+  polished_blackstone_bricks polished_blackstone_brick_stairs 4块→6梯=2.94  4梯→3块=-7.41
+  mud_bricks               mud_brick_stairs             4块→6梯=2.46  4梯→3块=-6.18
+
+【配方比例异常】
+  golden_chestplate        buy=450.0 mat=576.0 ratio=0.78 craft卖=-294.75  8xgold_ingot
+  golden_pickaxe           buy=150.0 mat=216.0 ratio=0.69 craft卖=-122.25  3xgold_ingot
+  blaze_powder             buy=15.0 mat=80.0 ratio=0.19 craft卖=-70.62  1xblaze_rod
+  end_crystal              buy=500.0 mat=194.0 ratio=2.58 craft卖=118.5  7xglass+1xender_eye+1xghast_tear
+  fire_charge              buy=10.0 mat=29.0 ratio=0.34 craft卖=-22.75  1xgunpowder+1xblaze_powder+1xcoal
+  bookshelf                buy=20.0 mat=33.6 ratio=0.6 craft卖=-21.1  3xbook+6xoak_planks
+  anvil                    buy=400.0 mat=1213.2 ratio=0.33 craft卖=-963.2  3xiron_block+4xiron_ingot
+
+【卖价>=买价】
+  end_portal_frame buy=100.0 sell=100.0
+  decorated_pot buy=10.0 sell=10.0
+
+【疑似遗漏】
+  木材: 2
+    pale_oak_shelf, stripped_bamboo_block
+  1.21试炼风潮: 9
+    exposed_copper_bulb, flow_pottery_sherd, guster_pottery_sherd, oxidized_copper_bulb, scrape_pottery_sherd, trial_spawner
+    vault, waxed_copper_bulb, weathered_copper_bulb
+  1.21.4苍白花园: 11
+    chiseled_resin_bricks, creaking_heart, creaking_spawn_egg, pale_hanging_moss, pale_moss_block, pale_moss_carpet
+    resin_brick, resin_brick_slab, resin_brick_stairs, resin_brick_wall, resin_bricks
+  1.21.6+新内容: 28
+    black_bundle, black_harness, blue_harness, brown_harness, bundle, bush
+    copper_golem_statue, cyan_harness, dried_ghast, firefly_bush, gray_harness, green_harness
+    happy_ghast_spawn_egg, harness, leaf_litter, light_blue_harness, light_gray_harness, lime_harness
+    magenta_harness, orange_harness, pink_harness, purple_harness, red_harness, short_dry_grass
+    tall_dry_grass, white_bundle, white_harness, yellow_harness
+  唱片: 1
+    music_disc_tears
+  收藏与装备附件: 3
+    armadillo_scute, decorated_pot_sherd, sniffer_egg
+  常用生存漏项: 22
+    armadillo_scute, bee_nest, beehive, brewing_stand, bundle, chorus_plant
+    creaking_heart, dirt_with_roots, dried_ghast, farmland, fireball, froglight
+    large_amethyst_bud, medium_amethyst_bud, pale_moss_block, pointed_dripstone, resin_brick, seagrass
+    small_amethyst_bud, sniffer_egg, snow_layer, tripwire
+
+【收藏/纹饰/唱片现价】
+  angler_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  archer_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  arms_up_pottery_sherd                            buy=  100.00 sell=   62.50 材料
+  blade_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  bolt_armor_trim_smithing_template                buy= 1200.00 sell=  750.00 材料
+  bordure_indented_banner_pattern                  buy=  120.00 sell=   75.00 其他
+  brewer_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  burn_pottery_sherd                               buy=  100.00 sell=   62.50 材料
+  coast_armor_trim_smithing_template               buy=  400.00 sell=  250.00 材料
+  creeper_banner_pattern                           buy=  200.00 sell=  125.00 其他
+  creeper_head                                     buy=  600.00 sell=  375.00 其他
+  danger_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  dragon_head                                      buy= 4000.00 sell= 2500.00 其他
+  dune_armor_trim_smithing_template                buy=  400.00 sell=  250.00 材料
+  explorer_pottery_sherd                           buy=  100.00 sell=   62.50 材料
+  eye_armor_trim_smithing_template                 buy=  900.00 sell=  562.50 材料
+  field_masoned_banner_pattern                     buy=  120.00 sell=   75.00 其他
+  flow_armor_trim_smithing_template                buy= 1200.00 sell=  750.00 材料
+  flow_banner_pattern                              buy=  400.00 sell=  250.00 其他
+  flower_banner_pattern                            buy=   80.00 sell=   50.00 其他
+  friend_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  globe_banner_pattern                             buy=  300.00 sell=  187.50 其他
+  guster_banner_pattern                            buy=  400.00 sell=  250.00 其他
+  heart_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  heartbreak_pottery_sherd                         buy=  100.00 sell=   62.50 材料
+  host_armor_trim_smithing_template                buy=  500.00 sell=  312.50 材料
+  howl_pottery_sherd                               buy=  100.00 sell=   62.50 材料
+  miner_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  mojang_banner_pattern                            buy=  800.00 sell=  500.00 其他
+  mourner_pottery_sherd                            buy=  100.00 sell=   62.50 材料
+  music_disc_11                                    buy=   80.00 sell=   50.00 其他
+  music_disc_13                                    buy=   80.00 sell=   50.00 其他
+  music_disc_5                                     buy=  150.00 sell=   93.75 其他
+  music_disc_blocks                                buy=   80.00 sell=   50.00 其他
+  music_disc_cat                                   buy=   80.00 sell=   50.00 其他
+  music_disc_chirp                                 buy=   80.00 sell=   50.00 其他
+  music_disc_creator                               buy=  120.00 sell=   75.00 其他
+  music_disc_creator_music_box                     buy=  120.00 sell=   75.00 其他
+  music_disc_far                                   buy=   80.00 sell=   50.00 其他
+  music_disc_mall                                  buy=   80.00 sell=   50.00 其他
+  music_disc_mellohi                               buy=   80.00 sell=   50.00 其他
+  music_disc_otherside                             buy=  120.00 sell=   75.00 其他
+  music_disc_pigstep                               buy=  200.00 sell=  125.00 其他
+  music_disc_precipice                             buy=  120.00 sell=   75.00 其他
+  music_disc_relic                                 buy=  150.00 sell=   93.75 其他
+  music_disc_stal                                  buy=   80.00 sell=   50.00 其他
+  music_disc_strad                                 buy=   80.00 sell=   50.00 其他
+  music_disc_wait                                  buy=   80.00 sell=   50.00 其他
+  music_disc_ward                                  buy=   80.00 sell=   50.00 其他
+  netherite_upgrade_smithing_template              buy= 2000.00 sell= 1250.00 材料
+  piglin_banner_pattern                            buy=  350.00 sell=  218.75 其他
+  piglin_head                                      buy=  500.00 sell=  312.50 其他
+  player_head                                      buy= 1000.00 sell=  625.00 其他
+  plenty_pottery_sherd                             buy=  100.00 sell=   62.50 材料
+  prize_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  raiser_armor_trim_smithing_template              buy=  500.00 sell=  312.50 材料
+  rib_armor_trim_smithing_template                 buy=  600.00 sell=  375.00 材料
+  sentry_armor_trim_smithing_template              buy=  400.00 sell=  250.00 材料
+  shaper_armor_trim_smithing_template              buy=  500.00 sell=  312.50 材料
+  sheaf_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  shelter_pottery_sherd                            buy=  100.00 sell=   62.50 材料
+  silence_armor_trim_smithing_template             buy= 1500.00 sell=  937.50 材料
+  skeleton_skull                                   buy=  200.00 sell=  125.00 其他
+  skull                                            buy=  200.00 sell=  125.00 其他
+  skull_banner_pattern                             buy=  250.00 sell=  156.25 其他
+  skull_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  snort_pottery_sherd                              buy=  100.00 sell=   62.50 材料
+  snout_armor_trim_smithing_template               buy=  600.00 sell=  375.00 材料
+  spire_armor_trim_smithing_template               buy= 1200.00 sell=  750.00 材料
+  tide_armor_trim_smithing_template                buy=  500.00 sell=  312.50 材料
+  vex_armor_trim_smithing_template                 buy= 1000.00 sell=  625.00 材料
+  ward_armor_trim_smithing_template                buy=  900.00 sell=  562.50 材料
+  wayfinder_armor_trim_smithing_template           buy=  500.00 sell=  312.50 材料
+  wild_armor_trim_smithing_template                buy=  400.00 sell=  250.00 材料
+  wither_skeleton_skull                            buy=  800.00 sell=  500.00 其他
+  zombie_head                                      buy=  300.00 sell=  187.50 其他

@@ -1,0 +1,44 @@
+﻿id,old_buy,new_buy,note
+minecraft:coal_block,79.2,1.24,ing_unit=0.13 profit_if_craft_sell=-0.34
+minecraft:iron_block,356.4,5.57,ing_unit=0.56 profit_if_craft_sell=-1.58
+minecraft:gold_block,712.8,11.14,ing_unit=1.13 profit_if_craft_sell=-3.16
+minecraft:diamond_block,1980.0,30.94,ing_unit=3.13 profit_if_craft_sell=-8.78
+minecraft:emerald_block,1188.0,18.56,ing_unit=1.88 profit_if_craft_sell=-5.27
+minecraft:lapis_block,277.2,4.33,ing_unit=0.44 profit_if_craft_sell=-1.23
+minecraft:redstone_block,158.4,2.48,ing_unit=0.25 profit_if_craft_sell=-0.7
+minecraft:copper_block,118.8,1.86,ing_unit=0.19 profit_if_craft_sell=-0.53
+minecraft:raw_iron_block,297.0,4.64,ing_unit=0.47 profit_if_craft_sell=-1.32
+minecraft:raw_gold_block,594.0,9.28,ing_unit=0.94 profit_if_craft_sell=-2.64
+minecraft:raw_copper_block,99.0,1.55,ing_unit=0.16 profit_if_craft_sell=-0.44
+minecraft:netherite_block,44550.0,44550.0,ing_unit=4500.0 profit_if_craft_sell=-12656.25
+minecraft:slime_block,80.0,1.24,ing_unit=0.13 profit_if_craft_sell=-0.34
+minecraft:quartz_block,44.0,0.69,ing_unit=0.16 profit_if_craft_sell=-0.19
+minecraft:amethyst_block,35.2,0.55,ing_unit=0.13 profit_if_craft_sell=-0.16
+minecraft:honey_block,40.0,3.3,ing_unit=0.75 profit_if_craft_sell=-0.94
+minecraft:water_bucket,8.0,45.0,bucket count=1
+minecraft:lava_bucket,20.0,80.0,bucket count=1
+minecraft:milk_bucket,10.0,50.0,bucket count=1
+minecraft:powder_snow_bucket,20.0,55.0,bucket count=1
+minecraft:cod_bucket,40.0,60.0,bucket count=1
+minecraft:salmon_bucket,40.0,60.0,bucket count=1
+minecraft:tropical_fish_bucket,50.0,70.0,bucket count=1
+minecraft:pufferfish_bucket,60.0,90.0,bucket count=1
+minecraft:tadpole_bucket,40.0,65.0,bucket count=1
+minecraft:axolotl_bucket,300.0,300.0,bucket count=1
+minecraft:bed,1.0,8.0,align colored beds
+minecraft:item.brewing_stand,10.0,100.0,sell>=buy fix + brew station
+minecraft:enchanted_golden_apple,800.0,6000.0,rarity gap vs golden_apple
+minecraft:red_flower,1.0,0.63,restore sell
+bricefire:solitary_eye_coast_map,800.0,500.0,map sell→0.625
+bricefire:skullmire_fen_map,800.0,500.0,map sell→0.625
+bricefire:blaze_wyrm_fall_guide_map,800.0,500.0,map sell→0.625
+bricefire:gazer_courtyard_map,800.0,500.0,map sell→0.625
+bricefire:ares_arena_map,800.0,500.0,map sell→0.625
+bricefire:sunken_nether_palace_map,800.0,500.0,map sell→0.625
+bricefire:fenrir_seal_map,800.0,500.0,map sell→0.625
+bricefire:ember_remnant_workshop_map,800.0,500.0,map sell→0.625
+bricefire:plaguebone_dragon_tomb_map,800.0,500.0,map sell→0.625
+bricefire:pale_throne_guide_map,800.0,500.0,map sell→0.625
+bricefire:terror_queen_map,800.0,500.0,map sell→0.625
+bricefire:prometheus_map,800.0,500.0,map sell→0.625
+bricefire:underground_dragon_nest_map,800.0,500.0,map sell→0.625

@@ -1,0 +1,41 @@
+基岩版 / 网易版 物品ID交叉核验报告
+================================
+
+【核对渠道】
+1. Minecraft Wiki：Bedrock Edition data values / 各物品页（Java vs Bedrock Identifier）
+2. bedrock.dev Numerical Item IDs
+3. Microsoft Learn Vanilla Item Listings（辅助，列表不全故不单独作最终依据）
+4. 网易中国版 Wiki：物品ID变更说明（1.23 扁平化后命名空间与国际基岩同向，如 oak_boat、cod 等）
+
+【结论摘要】
+- 绝大多数补全条目使用现代基岩命名空间ID，与网易现行扁平化命名一致，可直接用。
+- 已发现并修正/删除的问题见下（已写入配置并更新分享码）。
+
+【已删除（基岩不可用）】
+- spectral_arrow：仅 Java 有光灵箭
+- furnace_minecart：熔炉矿车，基岩版有意未实装
+
+【已重命名（基岩专用ID）】
+- item_frame → frame
+- glow_item_frame → glow_frame
+- zombified_piglin_spawn_egg → zombie_pigman_spawn_egg
+- small_dripleaf → small_dripleaf_block
+
+【保留但需注意版本】
+以下ID在国际基岩 1.21+ 有效；若网易客户端低于对应版本，商店可能刷不出：
+- mace（重锤）
+- breeze_rod / breeze_spawn_egg / bogged_spawn_egg
+- trial_key / ominous_trial_key / ominous_bottle / wind_charge
+- wolf_armor
+建议：导入后用创造或商店测试这几样；若无效再告诉我，可单独降级移除。
+
+【玩偶等模组ID】
+kaleidoscope_* 属于森罗组件命名空间，不按原版基岩表校验；只要你客户端已装对应组件即可。
+
+【建议你本地抽测（各抽1个）】
+工作站: brewing_stand, enchanting_table
+红石: hopper, powered_rail
+工具: diamond_pickaxe
+酿造: nether_wart, blaze_powder
+展示框: frame, glow_frame
+蛋: zombie_pigman_spawn_egg, pig_spawn_egg

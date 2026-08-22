@@ -1,0 +1,21 @@
+实机验证结论（用户截图）
+========================
+✓ bricefire:dragonbone
+✓ bricefire:witherbone
+✓ bricefire:fire_dragon_flesh
+✓ bricefire:electric_ion_dragon_flesh
+✓ bricefire:electric_ion_dragon_scale
+✓ 盔甲例：dragonscales_earth_helmet → 存在土龙(earth)种
+✓ 早前：dragon_meal / grassonger_meat / raptor_meat / amphithere_*
+
+规律：
+1. 龙骨/凋灵骨 = Java 连写 dragonbone / witherbone
+2. 龙肉 = *_dragon_flesh（不是 meat）
+3. 龙鳞 = {种}_dragon_scale（不是笼统 dragonscales）
+4. 比特萝卜多龙种：fire / ice / lightning / electric_ion / earth …
+
+未上架珍稀：blackf_reversed_scale、龙蛋、龙钢
+
+本次 removed=['5:dragonscales']
+added=7 updated=21
+bricefire条数=54

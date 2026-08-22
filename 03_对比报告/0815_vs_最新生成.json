@@ -1,0 +1,4329 @@
+{
+  "user_prefix": "ppcpdata2%eN",
+  "wrapper": {
+    "formatVersion": 2,
+    "sections": [
+      "common",
+      "systemShop",
+      "exchangeShop",
+      "killReward"
+    ],
+    "extra_keys": []
+  },
+  "user_top_keys": [
+    "customCoinTypes",
+    "customItemTags",
+    "customItemTypeMap",
+    "defCoinCustomTextureData",
+    "ecoSystemData",
+    "exchangeShopData",
+    "killEntityRewardMap",
+    "nameSpaceMap",
+    "systemShopItems"
+  ],
+  "ours_top_keys": [
+    "customCoinTypes",
+    "customItemTags",
+    "customItemTypeMap",
+    "defCoinCustomTextureData",
+    "ecoSystemData",
+    "killEntityRewardMap",
+    "nameSpaceMap",
+    "systemShopItems"
+  ],
+  "keys_only_user": [
+    "exchangeShopData"
+  ],
+  "keys_only_ours": [],
+  "eco_diffs": [
+    {
+      "field": "bulletinAutoOpenMode",
+      "ours": null,
+      "user": "off"
+    },
+    {
+      "field": "bulletinAutoOpenUnreadOnly",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "bulletinEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "deathLoseMoney",
+      "ours": 0,
+      "user": 100.0
+    },
+    {
+      "field": "deathLoseMoneyPercent",
+      "ours": 0.3,
+      "user": 0.0
+    },
+    {
+      "field": "defCoin",
+      "ours": 0,
+      "user": 100.0
+    },
+    {
+      "field": "ecoRanking",
+      "ours": true,
+      "user": false
+    },
+    {
+      "field": "exchangeShopEnabled",
+      "ours": null,
+      "user": false
+    },
+    {
+      "field": "exchangeShopMaxBatchCount",
+      "ours": null,
+      "user": 64
+    },
+    {
+      "field": "luckyDrawAllowSkipAnimation",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "luckyDrawBroadcastMinimumQuality",
+      "ours": null,
+      "user": "legendary"
+    },
+    {
+      "field": "luckyDrawEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "luckyDrawFinishCooldownSeconds",
+      "ours": null,
+      "user": 1
+    },
+    {
+      "field": "mainButtonLayout",
+      "ours": null,
+      "user": {
+        "columns": 5,
+        "order": [
+          "mainBtnBulletin",
+          "mainBtnTeleport",
+          "mainBtnResidence",
+          "mainBtnLuckyDraw",
+          "mainBtnTrans",
+          "mainBtnSystemShop",
+          "mainBtnSystemSell",
+          "mainBtnExchangeShop",
+          "mainBtnPlayerShop",
+          "mainBtnProjectE",
+          "mainBtnStock",
+          "mainBtnRanking",
+          "mainBtnHistory"
+        ],
+        "widths": {
+          "mainBtnBulletin": 2,
+          "mainBtnExchangeShop": 1,
+          "mainBtnHistory": 1,
+          "mainBtnLuckyDraw": 1,
+          "mainBtnPlayerShop": 1,
+          "mainBtnProjectE": 1,
+          "mainBtnRanking": 1,
+          "mainBtnResidence": 1,
+          "mainBtnStock": 1,
+          "mainBtnSystemSell": 2,
+          "mainBtnSystemShop": 2,
+          "mainBtnTeleport": 1,
+          "mainBtnTrans": 1
+        }
+      }
+    },
+    {
+      "field": "preMinuteCoin",
+      "ours": 0.0,
+      "user": 1.0
+    },
+    {
+      "field": "residenceCreateCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "residenceCreateFreeBlockCount",
+      "ours": null,
+      "user": 0
+    },
+    {
+      "field": "residenceCreatePricePerBlock",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "residenceCreateRangeMode",
+      "ours": null,
+      "user": "full_height"
+    },
+    {
+      "field": "residenceDeleteRefundPercent",
+      "ours": null,
+      "user": 1.0
+    },
+    {
+      "field": "residenceEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "residenceMaxCountPerOwner",
+      "ours": null,
+      "user": 10
+    },
+    {
+      "field": "residenceMaxJoinedCountPerPlayer",
+      "ours": null,
+      "user": 64
+    },
+    {
+      "field": "residenceMaxMemberCount",
+      "ours": null,
+      "user": 128
+    },
+    {
+      "field": "residenceMaxSideLength",
+      "ours": null,
+      "user": 512
+    },
+    {
+      "field": "residenceMinSideLength",
+      "ours": null,
+      "user": 1
+    },
+    {
+      "field": "residenceOfflineRecycleDays",
+      "ours": null,
+      "user": 180
+    },
+    {
+      "field": "residenceRenameCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "residenceRenameFee",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "residenceResizeEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "residenceTeleportCooldownSeconds",
+      "ours": null,
+      "user": 0
+    },
+    {
+      "field": "residenceTeleportEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "residenceTransferCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "residenceTransferEnabled",
+      "ours": null,
+      "user": false
+    },
+    {
+      "field": "residenceTransferFee",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "teleportDelaySeconds",
+      "ours": null,
+      "user": 2
+    },
+    {
+      "field": "teleportEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "teleportPersonalBedRequired",
+      "ours": null,
+      "user": false
+    },
+    {
+      "field": "teleportPersonalCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "teleportPersonalCooldownSeconds",
+      "ours": null,
+      "user": 30
+    },
+    {
+      "field": "teleportPersonalMaxCount",
+      "ours": null,
+      "user": 8
+    },
+    {
+      "field": "teleportPersonalPrice",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "teleportPlayerCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "teleportPlayerPrice",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "teleportPlayerRequestEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "teleportPreviousCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "teleportPreviousCooldownSeconds",
+      "ours": null,
+      "user": 30
+    },
+    {
+      "field": "teleportPreviousPrice",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "teleportRandomCenterMode",
+      "ours": null,
+      "user": "player_position"
+    },
+    {
+      "field": "teleportRandomCoinType",
+      "ours": null,
+      "user": "金币"
+    },
+    {
+      "field": "teleportRandomCooldownSeconds",
+      "ours": null,
+      "user": 600
+    },
+    {
+      "field": "teleportRandomEnabled",
+      "ours": null,
+      "user": true
+    },
+    {
+      "field": "teleportRandomPrice",
+      "ours": null,
+      "user": 0.0
+    },
+    {
+      "field": "teleportRandomRadius",
+      "ours": null,
+      "user": 3000
+    },
+    {
+      "field": "teleportRequestCooldownSeconds",
+      "ours": null,
+      "user": 60
+    },
+    {
+      "field": "teleportRequestExpireSeconds",
+      "ours": null,
+      "user": 120
+    },
+    {
+      "field": "teleportRespawnMode",
+      "ours": null,
+      "user": "vanilla"
+    }
+  ],
+  "tags_only_user": [],
+  "tags_only_ours": [],
+  "type_map_only_user": [],
+  "type_map_only_ours": [],
+  "ns_user": {
+    "bricefire": "4",
+    "farmers_tale_nullgr": "2",
+    "kaleidoscope_cookery": "1",
+    "kaleidoscope_doll": "5",
+    "kaleidoscope_tavern": "6",
+    "minecraft": "0",
+    "ws": "3"
+  },
+  "ns_ours": {
+    "bricefire": "4",
+    "farmers_tale_nullgr": "2",
+    "kaleidoscope_cookery": "1",
+    "kaleidoscope_doll": "5",
+    "kaleidoscope_tavern": "6",
+    "minecraft": "0",
+    "ws": "3"
+  },
+  "coins_user": [
+    {
+      "defCoin": 0.0,
+      "key": "基金",
+      "rankingAble": false,
+      "texturePath": "textures/ui/ppeco_icon_rot_coin_33",
+      "transferAble": false,
+      "transferTaxRate": 0.0,
+      "uvSize": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "visibleInPack": false
+    }
+  ],
+  "coins_ours": [
+    {
+      "defCoin": 0.0,
+      "key": "基金",
+      "rankingAble": false,
+      "texturePath": "textures/ui/ppeco_icon_rot_coin_33",
+      "transferAble": false,
+      "transferTaxRate": 0.0,
+      "uvSize": [
+        13,
+        13,
+        0,
+        0
+      ],
+      "visibleInPack": true
+    }
+  ],
+  "kill_user": {
+    "minecraft:cave_spider": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:chicken": [
+      1.0,
+      "金币"
+    ],
+    "minecraft:cod": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:cow": [
+      1.0,
+      "金币"
+    ],
+    "minecraft:creeper": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:drowned": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:frog": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:glow_squid": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:iron_golem": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:piglin": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:player": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:rabbit": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:skeleton": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:zombie": [
+      10.0,
+      "金币"
+    ],
+    "minecraft:zombie_villager_v2": [
+      10.0,
+      "金币"
+    ]
+  },
+  "kill_ours": {},
+  "shop": {
+    "user_count": 1889,
+    "ours_count": 1889,
+    "user_by_ns": {
+      "minecraft": 1380,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "ours_by_ns": {
+      "minecraft": 1380,
+      "kaleidoscope_cookery": 201,
+      "farmers_tale_nullgr": 2,
+      "ws": 17,
+      "bricefire": 69,
+      "kaleidoscope_doll": 68,
+      "kaleidoscope_tavern": 152
+    },
+    "added": 0,
+    "removed": 1,
+    "changed": 210,
+    "unchanged": 1678,
+    "user_dups": [
+      "minecraft:skull|d0|c1"
+    ],
+    "ours_dups": [],
+    "added_by_ns": {},
+    "removed_by_ns": {
+      "minecraft": 1
+    },
+    "changed_by_ns": {
+      "minecraft": 210
+    },
+    "changed_fields": {
+      "itemKeys": 210,
+      "buy": 1,
+      "sell": 1
+    },
+    "price_only": 0,
+    "tag_only": 0,
+    "recycle_only": 0,
+    "mixed": 210
+  },
+  "added_items": [],
+  "removed_items": [
+    {
+      "id": "minecraft:skull|d1|c1",
+      "name": "minecraft:skull",
+      "buy": 800.0,
+      "sell": 500.0,
+      "tag": "其他",
+      "recycle": false,
+      "durability": 1,
+      "count": 1
+    }
+  ],
+  "price_changes": [],
+  "tag_changes": [],
+  "recycle_changes": [],
+  "mixed_changes": [
+    {
+      "name": "minecraft:acacia_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:acacia_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:bat_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:birch_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:birch_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:black_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:black_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:blue_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:blue_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:bolt_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:bordure_indented_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:brown_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:brown_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cherry_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cherry_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:chiseled_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:coast_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cod_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:copper_block",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:copper_bulb",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:copper_door",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:copper_grate",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:copper_trapdoor",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:crafter",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:creeper_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:creeper_head",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cyan_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:cyan_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:dark_oak_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:dark_oak_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:dragon_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:dragon_head",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:dune_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:end_crystal",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:exposed_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:exposed_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:exposed_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:exposed_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:eye_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:field_masoned_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:filled_map",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:flow_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:flow_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:flower_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:furnace_minecart",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:globe_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:glow_squid_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:golden_axe",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:golden_hoe",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:golden_shovel",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:gray_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:gray_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:green_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:green_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:guster_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:host_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:jungle_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:jungle_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:light_blue_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:light_blue_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:light_gray_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:light_gray_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lime_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lime_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:magenta_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:magenta_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:mangrove_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:mangrove_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:mojang_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:netherite_upgrade_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oak_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oak_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:orange_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:orange_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oxidized_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:oxidized_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:pale_oak_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:pale_oak_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:piglin_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:piglin_head",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:pink_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:pink_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:player_head",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:pufferfish_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:purple_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:purple_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:raiser_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:raw_copper_block",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:red_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:red_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:respawn_anchor",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:rib_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:salmon_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:sentry_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:shaper_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:silence_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skeleton_horse_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skeleton_skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull_banner_pattern",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull",
+      "diffs": {
+        "buy": {
+          "ours": 200.0,
+          "user": 800.0
+        },
+        "sell": {
+          "ours": 125.0,
+          "user": 500.0
+        },
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:snout_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:spire_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:spruce_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:spruce_chest_boat",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:squid_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:tide_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:trader_llama_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:tropical_fish_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:vex_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:ward_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_exposed_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_exposed_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_oxidized_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_oxidized_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_weathered_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:waxed_weathered_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:wayfinder_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:weathered_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:weathered_cut_copper_slab",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:weathered_cut_copper_stairs",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:weathered_cut_copper",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:white_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:white_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:wild_armor_trim_smithing_template",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:wither_skeleton_skull",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:written_book",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:yellow_bed",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:yellow_shulker_box",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:zombie_head",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:zombie_horse_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    },
+    {
+      "name": "minecraft:zombie_villager_spawn_egg",
+      "diffs": {
+        "itemKeys": {
+          "ours": [
+            "NIN",
+            "count",
+            "durability",
+            "modEnchantData"
+          ],
+          "user": [
+            "NIN",
+            "durability",
+            "modEnchantData"
+          ]
+        }
+      }
+    }
+  ],
+  "other_top_diffs": [],
+  "type_map_value_diffs": []
+}

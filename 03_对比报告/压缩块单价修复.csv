@@ -1,0 +1,17 @@
+﻿block,ing,old_buy,new_buy,note
+diamond_block,diamond,30.94,1980.0,9x200.0x1.1
+emerald_block,emerald,18.56,1188.0,9x120.0x1.1
+gold_block,gold_ingot,11.14,712.8,9x72.0x1.1
+iron_block,iron_ingot,5.57,356.4,9x36.0x1.1
+coal_block,coal,1.24,79.2,9x8.0x1.1
+lapis_block,lapis_lazuli,4.33,277.2,9x28.0x1.1
+redstone_block,redstone,2.48,158.4,9x16.0x1.1
+copper_block,copper_ingot,1.86,118.8,9x12.0x1.1
+netherite_block,netherite_ingot,44550.0,44550.0,9x4500.0x1.1
+raw_iron_block,raw_iron,4.64,297.0,9x30.0x1.1
+raw_gold_block,raw_gold,9.28,594.0,9x60.0x1.1
+raw_copper_block,raw_copper,1.55,99.0,9x10.0x1.1
+slime_block,slime_ball,1.24,79.2,9x8.0x1.1
+quartz_block,quartz,11.04,44.0,4x10.0x1.1
+amethyst_block,amethyst_shard,0.55,35.2,4x8.0x1.1
+honey_block,honey_bottle,3.3,52.8,4x12.0x1.1

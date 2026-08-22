@@ -1,0 +1,50 @@
+﻿name,reason,buy,sell,tag,count
+vault,试炼宝库,800.0,500.0,其他,1
+trial_spawner,试炼刷怪笼,600.0,375.0,其他,1
+mob_spawner,刷怪笼,2500.0,1562.5,其他,1
+brewing_stand,alias of item.brewing_stand,100.0,62.5,其他,1
+iron_chain,alias of chain,8.0,5.0,材料,64
+golden_rail,alias of powered_rail,40.0,25.0,其他,64
+silver_glazed_terracotta,alias of light_gray glazed,3.5,2.19,方块,64
+reeds,alias of sugar_cane,2.0,1.25,材料,64
+tallgrass,alias of tall_grass,0.6,0.38,方块,16
+small_dripleaf,alias of small_dripleaf_block,4.0,2.5,方块,16
+evocation_illager_spawn_egg,alias of evoker,8000.0,0.0,刷怪蛋,1
+vindication_illager_spawn_egg,alias of vindicator,4000.0,0.0,刷怪蛋,1
+farmland,add,0.3,0.19,方块,64
+azalea_leaves,add,1.0,0.63,方块,64
+azalea_leaves_flowered,add,1.2,0.75,方块,64
+bamboo_sapling,add,1.0,0.63,方块,64
+cave_vines,add,3.0,1.88,方块,64
+cave_vines_head_with_berries,add,4.0,2.5,方块,16
+sweet_berry_bush,add,2.0,1.25,方块,16
+carrots,bedrock crop block,3.0,1.88,食物,64
+potatoes,bedrock crop block,3.0,1.88,食物,64
+cocoa,bedrock cocoa block,3.0,1.88,方块,64
+snow_layer,add,0.3,0.19,方块,64
+powder_snow,add,2.0,1.25,方块,64
+polished_blackstone_pressure_plate,add,2.0,1.25,其他,16
+smooth_stone_slab,add,0.19,0.12,方块,64
+normal_stone_stairs,add,0.3,0.19,方块,64
+cut_red_sandstone_slab,add,0.94,0.59,方块,64
+smooth_red_sandstone_slab,add,0.99,0.62,方块,64
+smooth_red_sandstone_stairs,add,2.7,1.69,方块,64
+smooth_sandstone_stairs,add,2.25,1.41,方块,64
+petrified_oak_slab,add,0.33,0.21,方块,64
+tube_coral_wall_fan,add,4.0,2.5,方块,16
+dead_tube_coral_wall_fan,add,1.5,0.94,方块,16
+brain_coral_wall_fan,add,4.0,2.5,方块,16
+dead_brain_coral_wall_fan,add,1.5,0.94,方块,16
+bubble_coral_wall_fan,add,4.0,2.5,方块,16
+dead_bubble_coral_wall_fan,add,1.5,0.94,方块,16
+fire_coral_wall_fan,add,4.0,2.5,方块,16
+dead_fire_coral_wall_fan,add,1.5,0.94,方块,16
+horn_coral_wall_fan,add,4.0,2.5,方块,16
+dead_horn_coral_wall_fan,add,1.5,0.94,方块,16
+infested_stone,add,8.0,5.0,方块,64
+infested_cobblestone,add,8.0,5.0,方块,64
+infested_stone_bricks,add,8.0,5.0,方块,64
+infested_mossy_stone_bricks,add,8.0,5.0,方块,64
+infested_cracked_stone_bricks,add,8.0,5.0,方块,64
+infested_chiseled_stone_bricks,add,8.0,5.0,方块,64
+infested_deepslate,add,8.0,5.0,方块,64

@@ -1,0 +1,38 @@
+当前商店原版条目: 1215
+end_rod 已有: True
+end_bricks 已有: True | end_stone_bricks: True
+
+【彩色方块(毛毯玻砼陶床烛潜影)】缺 0 / 清单196（已有196）
+
+【木材家族】缺 0 / 清单206（已有206）
+
+【船与铁轨】缺 0 / 清单28（已有28）
+
+【石材深板岩砂岩】缺 0 / 清单100（已有100）
+
+【下界末地】缺 0 / 清单58（已有58）
+
+【铜家族】缺 0 / 清单21（已有21）
+
+【红石功能方块】缺 0 / 清单65（已有65）
+
+【自然植物花冰雪】缺 0 / 清单60（已有60）
+
+【珊瑚】缺 0 / 清单30（已有30）
+
+【石英铜矿杂块】缺 0 / 清单14（已有14）
+
+清单内合计仍缺: 0
+
+说明: 清单=常见生存/建筑向，不是全量创造模式图鉴；
+网易基岩部分用旧名(end_bricks/magma/brick_block)，有任一别名即算覆盖。
+
+别名互认检查:
+  end_bricks=True | end_stone_bricks=True
+  end_brick_stairs=True | end_stone_brick_stairs=True
+  magma=True | magma_block=True
+  bricks=True | brick_block=True
+  note_block=True | noteblock=False
+  lily_pad=True | waterlily=False
+  sugar_cane=True | reeds=False
+  cobblestone_wall=True | cobblestone_wall=True
