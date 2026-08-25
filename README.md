@@ -20,10 +20,10 @@ Minecraft 服务器（PPEC）系统商店的定价配置工程。围绕「分享
 | 命名空间 | 模组 | 条目数 | 说明 |
 |---|---|---:|---|
 | `minecraft` | Minecraft 原版 | 1672 | 含附魔书 69 条 |
-| `kaleidoscope_cookery` | 万花筒厨艺 | 217 | 料理 / 菜品 |
-| `kaleidoscope_tavern` | 万花筒酒馆 | 194 | 酒类 / 饮具 |
+| `kaleidoscope_cookery` | 森罗物语·料理 | 217 | 料理 / 菜品 |
+| `kaleidoscope_tavern` | 森罗物语·酒馆 | 194 | 酒类 / 饮具 |
 | `bricefire` | 冰火传说 | 69 | 龙 / 冰火生物与材料 |
-| `kaleidoscope_doll` | 万花筒玩偶 | 68 | 玩偶收集 |
+| `kaleidoscope_doll` | 森罗物语·玩偶 | 68 | 玩偶收集 |
 | `create` | 机械动力 | 63 | 齿轮 / 构件 / 机械 |
 | `ihzao` | 森罗 | 23 | 茶 / 植物（含连锁挖矿 chainmining） |
 | `ws` | WS 透明玻璃 | 17 | 装饰玻璃 |
