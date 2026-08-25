@@ -1,6 +1,8 @@
 # PPCP 商店定价工作流
 
-Minecraft 服务器（PPEC）系统商店的定价配置工程。围绕「分享码」做解码 → 定价重锚 → 编码 → 校验的完整工作流，目标是驱动玩家在游戏中持续采集 → 制作 → 卖出换钱 → 便利购买材料，同时满足建筑与机械的购买需求。
+**网易我的世界基岩版** · 泼皮工作室模组「**更好的经济系统**」（PPEC）的分享码定价配置工程。围绕「分享码」做解码 → 定价重锚 → 编码 → 校验的完整工作流，目标是驱动玩家在游戏中持续采集 → 制作 → 卖出换钱 → 便利购买材料，同时满足建筑与机械的购买需求。
+
+> 适用范围：本地单人存档与「山头」模组服务器。分享码由插件导入/导出，可直接在游戏内使用。
 
 ## 核心概念
 
@@ -58,8 +60,8 @@ ppcdata/
 │   ├── decoded/                各版本解码 JSON 快照（保留最新 3 份）
 │   ├── backups/                原始备份（原始分享串/原始解码配置）
 │   └── cookery_tree.json        料理配方树（研究资料）
-├── releases/                   发布的分享码（最终产物，按 日期_版本号 命名）
-│   └── 20260824_08209.txt
+├── releases/                   发布的分享码（最终产物，按 日期_两位序号 命名）
+│   └── 20260824_09.txt
 └── reports/                    分析报告
     ├── 落地报告/                每版本落地报告（保留最新 3 份）
     └── 审计分析/                一次性审计 CSV/TXT（套利扫描、缺口补齐等）
@@ -73,7 +75,7 @@ ppcdata/
 from ppcp_lib import decode_share, encode_share, load_shop, save_shop
 
 # 分享码 → dict
-wrap = decode_share(open("releases/20260824_08209.txt").read())
+wrap = decode_share(open("releases/20260824_09.txt").read())
 
 # dict → 分享码（默认前缀 ppcdata2；旧格式用 prefix="ppcpdata"）
 share = encode_share(wrap)
@@ -103,8 +105,8 @@ zeros = zero_items(items, rev)        # 0/0 条目（疑似遗漏定价）
 
 ## 版本约定
 
-- 版本号 `0820X` 对应日期 08-20，迭代第 X 版。
-- 分享码命名 `YYYYMMDD_0820X.txt`。
+- 版本号约定：分享码文件名 `YYYYMMDD_NN.txt`，其中 `NN` 为两位序号（当日版本从 `01` 起），如 `20260824_09.txt`。
+- 内部版本标签（CHANGELOG/落地报告/脚本名）沿用 `0820X` 形式，对应日期 08-20 迭代第 X 版。
 - 每版本改动要点见 [CHANGELOG.md](CHANGELOG.md)，详细落地见 `reports/落地报告/`。
 - 历史脚本按「输入基线」命名（如 `implement_08209.py` 读 08202 作为原始价基线），仅作参考，含绝对路径，复用时需调整路径与 `from ppcp_lib import` 的搜索路径。
 
