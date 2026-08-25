@@ -54,9 +54,12 @@ from ppcp_lib import decode_share, encode_share, load_shop, save_shop
 # 分享码 → dict
 wrap = decode_share(open("releases/20260824_08209.txt").read())
 
+# dict → 分享码（默认前缀 ppcdata2；旧格式用 prefix="ppcpdata"）
+share = encode_share(wrap)
+
 # 读写 decoded.json
 wrap, data = load_shop("data/decoded/08209.json")
-save_shop(wrap, "out.json", "out.txt")
+save_shop(wrap, "out.json", "out.txt")  # 内部调用 encode_share 生成 out.txt
 ```
 
 ### 命名空间
