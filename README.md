@@ -13,6 +13,27 @@ Minecraft 服务器（PPEC）系统商店的定价配置工程。围绕「分享
 
 详见 [docs/新价格体系提案.md](docs/新价格体系提案.md) 与 [docs/价格锚点.json](docs/价格锚点.json)。
 
+## 兼容模组
+
+本配置覆盖 1 个原版 + 11 个模组命名空间，共 **2362 条系统商店条目** + 13 个抽奖池 + 76 个击杀奖励条目（数据源 `data/decoded/08209.json`）。
+
+| 命名空间 | 模组 | 条目数 | 说明 |
+|---|---|---:|---|
+| `minecraft` | Minecraft 原版 | 1672 | 含附魔书 69 条 |
+| `kaleidoscope_cookery` | 万花筒厨艺 | 217 | 料理 / 菜品 |
+| `kaleidoscope_tavern` | 万花筒酒馆 | 194 | 酒类 / 饮具 |
+| `bricefire` | 冰火传说 | 69 | 龙 / 冰火生物与材料 |
+| `kaleidoscope_doll` | 万花筒玩偶 | 68 | 玩偶收集 |
+| `create` | 机械动力 | 63 | 齿轮 / 构件 / 机械 |
+| `ihzao` | 森罗 | 23 | 茶 / 植物（含连锁挖矿 chainmining） |
+| `ws` | WS 透明玻璃 | 17 | 装饰玻璃 |
+| `breath_maid` | 车万女仆 | 15 | 女仆 / 饰品（ npc_jie / npc_xiang 服务） |
+| `farmer_delight_nullgr` | 农夫乐事 | 11 | 农产 / 烹饪 |
+| `ysm_maid` | YSM 女仆 | 11 | 女仆 / 饰品 |
+| `farmers_tale_nullgr` | 农夫传说 | 2 | 农产扩展 |
+
+> 命名空间后缀 `_nullgr` 表示本地化重定向版本。各版本的 `nameSpaceMap` ID 会动态重排，访问时务必用 [src/ppcp_lib.py](src/ppcp_lib.py) 的 `namespace_maps()` 动态解析。
+
 ## 目录结构
 
 ```
