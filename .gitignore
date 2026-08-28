@@ -1,5 +1,16 @@
 # Agent / 工具运行痕迹（非项目内容）
 .mimosa/
+_tmp_*.txt
+
+# 早期一次性分析/迁移脚本（含 eval()，已被 src/scripts/implement_v2_*.py 等取代）
+src/scripts/audit_recipe_units.py
+src/scripts/fix_08206_recipe_units.py
+src/scripts/implement_08209.py
+src/scripts/add_vanilla_full.py
+src/scripts/fill_copper_age_and_fix_loops.py
+src/scripts/fill_vanilla_collectibles.py
+src/scripts/fill_vanilla_major_gaps.py
+src/scripts/fill_vault_and_leftovers.py
 
 # Python
 __pycache__/

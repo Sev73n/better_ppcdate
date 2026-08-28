@@ -1,0 +1,53 @@
+原版物品完整性对照报告（2026-08-24 数据 vs 1.21.5+ 铜器时代基准）
+================================================================
+
+一、总览
+- 商店原版条目：1531 条（含刷怪蛋 85、附魔书 69、药水 12）
+- 参考清单：1267 条（原版 1.21 + 1.21.4/1.21.5 新内容）
+- 结论：原版物品基本齐全，版本覆盖无问题（已含苍白橡木/树脂/嘎吱之心等 1.21.5 内容）
+- 真缺失：2 个装饰品
+- 坏 ID：2 条
+- 耐久异常：3 处 + 铜器时代装备族 9 件
+- 重复行：蛋类 2 对 + 少量 Bedrock 别名并存
+
+二、真缺失（需补入）
+1. chorus_plant（紫颂植物方块）——装饰/紫颂果来源，建议定价 0.05/块（紫珀类）
+2. thing_banner_pattern（Thing 旗帜图案）——收藏品，建议 5.0（对齐其他图案）
+
+三、坏 ID（购买可能失效，需改名或删除）
+1. item.brewing_stand —— NIN 前缀 item.，正确名 brewing_stand（店内已有正确行，删除此坏行）
+2. item.flower_pot —— 同上，正确名 flower_pot（删除坏行）
+
+四、耐久 NBT 异常
+- crossbow：464 → 465
+- mace：0 → 500
+- wolf_armor：0 → 64
+- 铜器时代 9 件（copper_sword/pickaxe/axe/shovel/hoe/helmet/chestplate/leggings/boots）：durability=0，待取模组实际值；缺省建议工具 190、盔甲 165/240/225/195
+- 其余原版工具/装备耐久全部正确（不存在买来耐久为 1 的问题）
+
+五、重复行
+- vindication_illager_spawn_egg 与 vindicator_spawn_egg（卫道士，新旧名重复）
+- evocation_illager_spawn_egg 与 evoker_spawn_egg（唤魔者，新旧名重复）
+- smooth_stone_slab / normal_stone_slab 等 Bedrock 别名并存（保留新名即可）
+
+六、疑似缺失但实为 Bedrock 别名（47 条，已核实存在，无需处理）
+染色玻璃 16 色（*_stained_glass/_pane）、nether_brick=下界砖块、red_nether_brick=红色下界砖、
+snow=雪块、short_grass=草、grass_path=土径、turtle_scute=鳞甲、melon_block=西瓜、
+brick_block=红砖块、netherbrick=下界砖(物品)、zombie_pigman_spawn_egg=僵尸猪人蛋、
+azalea_leaves_flowered=开花杜鹃叶、end_bricks=末地石砖、lit_pumpkin=南瓜灯、noteblock=音符盒、
+frame=物品展示框、glow_frame=荧光物品展示框、deadbush=枯灌木、cocoa=可可豆、carrots=胡萝卜、
+dirt_with_roots=缠根泥土、frog_spawn=青蛙卵、magma=岩浆块、reeds=甘蔗、waterlily=睡莲、
+stonecutter_block=切石机、web=蜘蛛网、quartz_ore=下界石英矿、slime=粘液块、skull=头颅(meta 区分)等
+
+七、刷怪蛋 85 种分层（现价 → 建议价）
+- 200 档 25 种：农场/和平生物（正确）
+  - 归入修正：pufferfish 250→200、glow_squid 300→200、trader_llama 400→200
+- 600 档 14 种：功能/特殊产物（正确）
+  - 归入修正：skeleton_horse/zombie_horse 800→600
+- 1500 档 16 种：常见敌对（正确）
+- 4000 档 16 种：稀有/精英敌对（正确）
+  - 归入修正：happy_ghast 2500→4000
+- 8000 档 6 种：高危（enderman/evoker/ravager/warden/wither_skeleton，去除重复后 5 种）
+- 13140 档 2 种：Boss（wither/ender_dragon）
+- 全部 sell=0（合规）
+- 另：mob_spawner（刷怪笼）生存不可获取且可建无限农场，建议 4000、sell=0；trial_spawner/vault 建议下架

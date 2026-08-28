@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "scope": "原版(minecraft)先行，模组/刷怪蛋/玩偶后置",
+  "currency": "金币",
+  "decimal_places": 2,
+  "min_price": 0.01,
+  "online_per_minute": 0.1,
+  "start_money": 7,
+  "death_lose_money": 10,
+  "labor": { "L0": 1.5, "L1": 3.0, "L2": 4.0, "L3": 5.0 },
+  "anchors": {
+    "cobblestone_block": 0.01,
+    "diamond_block": 10.0,
+    "gold_ingot": 5.0,
+    "emerald": 1.0,
+    "elytra": 13140.0,
+    "ancient_debris": 900.0,
+    "netherite_scrap": 1080.0,
+    "netherite_ingot": 4500.0
+  },
+  "ore_ladder": {
+    "coal": { "buy_per_block": 0.50, "stack": 32.0 },
+    "copper_ingot": { "buy_per_block": 0.80, "stack": 51.2 },
+    "iron_ingot": { "buy_per_block": 1.00, "stack": 64.0 },
+    "redstone": { "buy_per_block": 2.00, "stack": 128.0, "functional_discount": true },
+    "lapis_lazuli": { "buy_per_block": 2.50, "stack": 160.0, "functional_discount": true },
+    "gold_ingot": { "buy_per_block": 5.00, "stack": 320.0 },
+    "diamond": { "buy_per_block": 10.0, "stack": 640.0 },
+    "quartz": { "buy_per_block": 0.15, "stack": 9.6, "functional_discount": true },
+    "nether_gold_ore": { "buy_per_block": 4.00, "stack": 256.0, "note": "smelts to 1 gold ingot" }
+  },
+  "ore_derivation": {
+    "smeltable": "ore = ingot * 0.8 (iron 0.80 / gold 4.00 / copper 0.64 / nether_gold 4.00)",
+    "one_to_one": "ore = item (coal 0.50 / diamond 10.0 / deepslate_diamond 10.0)",
+    "multi_drop": "redstone_ore=4x=8.0, lapis_ore=6x=15.0",
+    "nugget": "gold_nugget = 5.0/9 = 0.56"
+  },
+  "tool_armor": {
+    "formula": "max(material_cost * 1.5, floor)",
+    "tool_floor": { "wood": 0.30, "stone": 0.50, "iron": 4.50, "gold": 7.50, "diamond": 45.0, "netherite": 5200.0 },
+    "diamond_armor": { "helmet": 75.0, "chestplate": 120.0, "leggings": 105.0, "boots": 60.0 },
+    "iron_armor": { "helmet": 7.5, "chestplate": 12.0, "leggings": 10.5, "boots": 6.0 },
+    "chainmail": { "helmet": 15.0, "chestplate": 24.0, "leggings": 21.0, "boots": 12.0 },
+    "leather": { "helmet": 1.0, "chestplate": 1.5, "leggings": 1.2, "boots": 0.8 }
+  },
+  "food_villager_anchor": {
+    "emerald": 1.0,
+    "wheat": 0.05, "carrot": 0.04, "potato": 0.04, "beetroot": 0.07,
+    "pumpkin": 0.17, "bread": 0.17, "apple": 0.25, "pumpkin_pie": 0.25,
+    "cookie": 0.17, "cake": 1.0, "golden_carrot": 1.0, "glistering_melon": 1.33
+  },
+  "sell_rules": {
+    "bulk_blocks": "0.01/stack fixed",
+    "minable_ores": "round2(buy * 0.05)",
+    "unchainable": "round2(buy * 0.625)",
+    "emerald": 0.0,
+    "spawn_egg": 0.0
+  },
+  "known_fixes": [
+    "12 条 buy==sell 违规",
+    "工具倒挂 铁<石<木",
+    "锁链甲 100~200 高于钻石甲",
+    "钻石→合金 3688 倍断层压缩",
+    "蛋糕 0.3 漏锚 -> 1.0",
+    "面包 9.0 倒挂 -> 0.17/个"
+  ],
+  "deferred_mod": ["spawn_egg_tiers", "doll_tiers_mild", "labor_B_recipes", "kaleidoscope 系列", "bricefire", "ysm_maid", "机械 create", "娘化", "农夫乐事", "透明玻璃 ws"]
+}
